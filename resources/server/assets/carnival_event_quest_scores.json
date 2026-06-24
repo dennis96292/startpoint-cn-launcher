@@ -1,0 +1,1028 @@
+{
+  "1001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 1
+  },
+  "1002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 1
+  },
+  "1003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 1
+  },
+  "1004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 1
+  },
+  "1005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 1
+  },
+  "1006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 1
+  },
+  "1007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 1
+  },
+  "1008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 1
+  },
+  "1009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 1
+  },
+  "250601001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 250601
+  },
+  "250601002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 250601
+  },
+  "250601003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 250601
+  },
+  "250601004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 250601
+  },
+  "250601005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 250601
+  },
+  "250601006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 250601
+  },
+  "250601007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 250601
+  },
+  "250601008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 250601
+  },
+  "250601009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 250601
+  },
+  "250602001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 250602
+  },
+  "250602002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 250602
+  },
+  "250602003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 250602
+  },
+  "250602004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 250602
+  },
+  "250602005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 250602
+  },
+  "250602006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 250602
+  },
+  "250602007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 250602
+  },
+  "250602008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 250602
+  },
+  "250602009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 250602
+  },
+  "250603001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 250603
+  },
+  "250603002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 250603
+  },
+  "250603003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 250603
+  },
+  "250603004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 250603
+  },
+  "250603005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 250603
+  },
+  "250603006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 250603
+  },
+  "250603007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 250603
+  },
+  "250603008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 250603
+  },
+  "250603009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 250603
+  },
+  "250604001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 250604
+  },
+  "250604002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 250604
+  },
+  "250604003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 250604
+  },
+  "250604004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 250604
+  },
+  "250604005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 250604
+  },
+  "250604006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 250604
+  },
+  "250604007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 250604
+  },
+  "250604008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 250604
+  },
+  "250604009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 250604
+  },
+  "250605001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 250605
+  },
+  "250605002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 250605
+  },
+  "250605003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 250605
+  },
+  "250605004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 250605
+  },
+  "250605005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 250605
+  },
+  "250605006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 250605
+  },
+  "250605007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 250605
+  },
+  "250605008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 250605
+  },
+  "250605009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 250605
+  },
+  "250606001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 250606
+  },
+  "250606002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 250606
+  },
+  "250606003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 250606
+  },
+  "250606004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 250606
+  },
+  "250606005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 250606
+  },
+  "250606006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 250606
+  },
+  "250606007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 250606
+  },
+  "250606008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 250606
+  },
+  "250606009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 250606
+  },
+  "100004001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 100004
+  },
+  "100004002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 100004
+  },
+  "100004003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 100004
+  },
+  "100004004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 100004
+  },
+  "100004005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 100004
+  },
+  "100004006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 100004
+  },
+  "100004007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 100004
+  },
+  "100004008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 100004
+  },
+  "100004009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 100004
+  },
+  "100003001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 100003
+  },
+  "100003002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 100003
+  },
+  "100003003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 100003
+  },
+  "100003004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 100003
+  },
+  "100003005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 100003
+  },
+  "100003006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 100003
+  },
+  "100003007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 100003
+  },
+  "100003008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 100003
+  },
+  "100003009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 100003
+  },
+  "100000001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 100000
+  },
+  "100000002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 100000
+  },
+  "100000003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 100000
+  },
+  "100000004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 100000
+  },
+  "100000005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 100000
+  },
+  "100000006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 100000
+  },
+  "100000007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 100000
+  },
+  "100000008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 100000
+  },
+  "100000009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 100000
+  },
+  "100002001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 100002
+  },
+  "100002002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 100002
+  },
+  "100002003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 100002
+  },
+  "100002004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 100002
+  },
+  "100002005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 100002
+  },
+  "100002006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 100002
+  },
+  "100002007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 100002
+  },
+  "100002008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 100002
+  },
+  "100002009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 100002
+  },
+  "9001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 9
+  },
+  "9002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 9
+  },
+  "9003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 9
+  },
+  "9004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 9
+  },
+  "9005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 9
+  },
+  "9006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 9
+  },
+  "9007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 9
+  },
+  "9008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 9
+  },
+  "9009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 9
+  },
+  "8001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 8
+  },
+  "8002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 8
+  },
+  "8003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 8
+  },
+  "8004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 8
+  },
+  "8005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 8
+  },
+  "8006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 8
+  },
+  "8007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 8
+  },
+  "8008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 8
+  },
+  "8009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 8
+  },
+  "7001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 7
+  },
+  "7002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 7
+  },
+  "7003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 7
+  },
+  "7004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 7
+  },
+  "7005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 7
+  },
+  "7006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 7
+  },
+  "7007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 7
+  },
+  "7008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 7
+  },
+  "7009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 7
+  },
+  "6001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 6
+  },
+  "6002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 6
+  },
+  "6003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 6
+  },
+  "6004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 6
+  },
+  "6005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 6
+  },
+  "6006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 6
+  },
+  "6007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 6
+  },
+  "6008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 6
+  },
+  "6009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 6
+  },
+  "5001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 5
+  },
+  "5002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 5
+  },
+  "5003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 5
+  },
+  "5004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 5
+  },
+  "5005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 5
+  },
+  "5006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 5
+  },
+  "5007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 5
+  },
+  "5008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 5
+  },
+  "5009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 5
+  },
+  "4001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 4
+  },
+  "4002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 4
+  },
+  "4003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 4
+  },
+  "4004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 4
+  },
+  "4005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 4
+  },
+  "4006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 4
+  },
+  "4007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 4
+  },
+  "4008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 4
+  },
+  "4009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 4
+  },
+  "3001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 3
+  },
+  "3002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 3
+  },
+  "3003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 3
+  },
+  "3004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 3
+  },
+  "3005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 3
+  },
+  "3006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 3
+  },
+  "3007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 3
+  },
+  "3008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 3
+  },
+  "3009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 3
+  },
+  "2001": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 1,
+    "event_id": 2
+  },
+  "2002": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 2,
+    "event_id": 2
+  },
+  "2003": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 3,
+    "event_id": 2
+  },
+  "2004": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 4,
+    "event_id": 2
+  },
+  "2005": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 5,
+    "event_id": 2
+  },
+  "2006": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 6,
+    "event_id": 2
+  },
+  "2007": {
+    "difficulty_score": 20,
+    "time_limit_ms": 108000,
+    "folder_id": 7,
+    "event_id": 2
+  },
+  "2008": {
+    "difficulty_score": 55,
+    "time_limit_ms": 72000,
+    "folder_id": 8,
+    "event_id": 2
+  },
+  "2009": {
+    "difficulty_score": 80,
+    "time_limit_ms": 54000,
+    "folder_id": 9,
+    "event_id": 2
+  }
+}

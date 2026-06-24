@@ -1,16 +1,17 @@
-node_modules/
-dist/
-out/
+# Launcher's own dev deps + build output (NOT the bundled server's node_modules/out).
+# These are scoped to the repo ROOT so they don't accidentally exclude resources/server/**.
+/node_modules/
+/dist/
 *.log
 launcher-config.json
-
-# Rust build output
 src-tauri/target/
 
-# Bundled runtime resources (node / vendored server / JDK / FFDec / build-tools) are
-# assembled at build time and NEVER committed — large binaries + third-party copyright.
-# Ignore the whole tree; the release/build script reassembles it.
-resources/
+# Bundled runtime (node / vendored server / JDK / FFDec / build-tools) IS committed so a
+# fresh clone can build the installer as-is. Only runtime-GENERATED data is excluded:
+resources/server/.cdn/
+resources/server/.database/
+resources/server/.env
+resources/server/_dl/
 
 # APK patch scratch / output
 apkwork/

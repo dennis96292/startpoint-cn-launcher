@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: dark) {
+  @supports (hover: hover) {
+    .dark\:\[\@supports\(hover\:hover\)\]\:hover\:\[\&\>\*\]\:\(\[--potato\:baked\]\2c
+      bg-\[\#0088cc\]\)
+      > *:hover {
+      --tw-bg-opacity: 1;
+      background-color: rgb(0 136 204 / var(--tw-bg-opacity));
+      --potato: baked;
+    }
+  }
+}

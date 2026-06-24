@@ -1,0 +1,4547 @@
+[
+  {
+    "id": 1,
+    "name": "阿尔克",
+    "title": "通往星之路",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 10,
+    "name": "白",
+    "title": "饯别的咆哮",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111001,
+    "name": "瓦格纳",
+    "title": "火龙的风格",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Dragon"
+  },
+  {
+    "id": 111002,
+    "name": "玛丽娜",
+    "title": "领袖船长",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111003,
+    "name": "克拉莉丝",
+    "title": "克拉莉丝最可爱☆",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 111004,
+    "name": "玛丽安",
+    "title": "华丽女仆",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 111005,
+    "name": "诺埃妮",
+    "title": "宇宙偶像之力",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111006,
+    "name": "菊野",
+    "title": "花街色香",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 111007,
+    "name": "罗尔夫",
+    "title": "忠勇骑士道",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111009,
+    "name": "米娅",
+    "title": "夏日宝藏！",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111015,
+    "name": "花火",
+    "title": "稍微动一下真格",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 111021,
+    "name": "碧安卡",
+    "title": "女王大人是圣诞老人",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Dragon"
+  },
+  {
+    "id": 111027,
+    "name": "托莉亚",
+    "title": "打倒帕尔佩布拉！",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111033,
+    "name": "燎",
+    "title": "无国界医疗",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111039,
+    "name": "水善",
+    "title": "感激的赠礼",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 111045,
+    "name": "克亚雷",
+    "title": "无情的微笑",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111051,
+    "name": "塞达",
+    "title": "阿尔贝斯的契约者",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111057,
+    "name": "蕾缇希娅",
+    "title": "大海调停者",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 111063,
+    "name": "艾可莉儿",
+    "title": "白金假期！",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111069,
+    "name": "凉宫春日",
+    "title": "让世界热闹起来的力量",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111081,
+    "name": "琉农",
+    "title": "亡友影牙",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 111087,
+    "name": "玛丽娜",
+    "title": "我是你们的同伴！！",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111093,
+    "name": "未奏希",
+    "title": "陷阱专家",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111099,
+    "name": "蕾缇希娅",
+    "title": "恋爱调停者",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 111105,
+    "name": "魏虎",
+    "title": "可怕……真是可怕啊！",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 111111,
+    "name": "托莉亚",
+    "title": "冲啊！米雷亚！",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111117,
+    "name": "惠惠",
+    "title": "红魔族惠惠",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111123,
+    "name": "帕尔菲",
+    "title": "围裙之上的骄傲",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 111129,
+    "name": "玛格诺斯",
+    "title": "再起的火焰",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111135,
+    "name": "黛妲莉亚",
+    "title": "相信会有伙伴跟随",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 111141,
+    "name": "米娅",
+    "title": "虎耳引导者",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111147,
+    "name": "丝缇涅尔",
+    "title": "人类啊，愿你们幸福",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 111153,
+    "name": "露涅塔",
+    "title": "照亮某人的灯光",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 111159,
+    "name": "佩妮萝涅",
+    "title": "包在我身上！",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111165,
+    "name": "莉莉丝",
+    "title": "照亮彼方的灯火",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 111171,
+    "name": "珂艾特",
+    "title": "前往虚无的邀请",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 111177,
+    "name": "威尔弗雷德",
+    "title": "交错的声援",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 111183,
+    "name": "瓦格纳",
+    "title": "荣耀红炎",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Dragon"
+  },
+  {
+    "id": 113001,
+    "name": "黄金船",
+    "title": "赤色纷争",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 121001,
+    "name": "索妮雅",
+    "title": "幽幻舞蹈",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121002,
+    "name": "水善",
+    "title": "天地阴阳之理",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 121003,
+    "name": "艾莉亚",
+    "title": "和服魔法师的光彩",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 121004,
+    "name": "赛法",
+    "title": "悠久寒气",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 121005,
+    "name": "希丽奴",
+    "title": "钢铁意志",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 121006,
+    "name": "里姆尼斯",
+    "title": "事与愿违的屠龙者",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121007,
+    "name": "拉绮夏",
+    "title": "恩泽之笔",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 121008,
+    "name": "拉杰尔特",
+    "title": "不屈的骄傲",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121009,
+    "name": "源樱",
+    "title": "并非传说的普通女孩",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 121015,
+    "name": "雷拉斯",
+    "title": "魔眼持有者",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121021,
+    "name": "爱蜜莉雅",
+    "title": "大精灵的加护",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 121027,
+    "name": "雷姆",
+    "title": "鬼上身之力",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 121033,
+    "name": "谢胧",
+    "title": "至臻武学",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 121039,
+    "name": "哈里达尔",
+    "title": "曙光誓言",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121045,
+    "name": "亚美莉亚",
+    "title": "能去往天涯海角！",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human,Aquatic"
+  },
+  {
+    "id": 121051,
+    "name": "玛姆娜莉亚",
+    "title": "圣母的微笑",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121057,
+    "name": "长门有希",
+    "title": "万能的资讯操作",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121069,
+    "name": "谢胧",
+    "title": "极致兽性",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 121070,
+    "name": "见岛勇希",
+    "title": "只属于我的世界",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121075,
+    "name": "芙拉克西斯",
+    "title": "蔚蓝弗拉克西斯",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 121081,
+    "name": "赛法",
+    "title": "永久冻土",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 121087,
+    "name": "雷拉斯",
+    "title": "祝福冰花",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121093,
+    "name": "特拉埃蒂",
+    "title": "宇宙刑警力量",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 121099,
+    "name": "镜华",
+    "title": "我要使用防犯魔石了哦？",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 121105,
+    "name": "安巴赫",
+    "title": "挣脱束缚的命运",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Dragon"
+  },
+  {
+    "id": 121111,
+    "name": "贾斯媞",
+    "title": "HERO:REBUILD",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 121117,
+    "name": "蒂亚",
+    "title": "定能感动你的歌",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 121123,
+    "name": "阿克娅",
+    "title": "再多宠宠我！！",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 121129,
+    "name": "卢卡",
+    "title": "追逐憧憬",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 121135,
+    "name": "塞利米尔",
+    "title": "老海盗的癫狂",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121141,
+    "name": "夏尔",
+    "title": "剑指光芒之巅",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121147,
+    "name": "见岛勇希",
+    "title": "我们的世界",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121153,
+    "name": "索媞艾丝",
+    "title": "黎明预兆",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121159,
+    "name": "妮丝艾丝",
+    "title": "维斯塔之杖",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 121165,
+    "name": "岚梅",
+    "title": "伸向奈落的手指",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121171,
+    "name": "影丘龙一",
+    "title": "龙啊，寄于我身吧",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121177,
+    "name": "索维",
+    "title": "爱的誓言",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121183,
+    "name": "普·莉莉艾",
+    "title": "迷宫探索者生活安全改善宣传部长",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 121189,
+    "name": "茶露亚",
+    "title": "明天玩什么？",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Plants,Element"
+  },
+  {
+    "id": 123001,
+    "name": "ノエル・シルヴァ",
+    "title": "王家の魔（マナ）",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 131001,
+    "name": "稻穗",
+    "title": "九尾天雷妖兽姬",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Mystery"
+  },
+  {
+    "id": 131002,
+    "name": "卡莉奥丝特罗",
+    "title": "世界上最可爱的人☆",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 131003,
+    "name": "宗士郎",
+    "title": "对孩子的慈爱",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 131004,
+    "name": "梅媞斯",
+    "title": "令人麻痹的美貌",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 131005,
+    "name": "巴拉克",
+    "title": "争夺至高之拳",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 131011,
+    "name": "塞拉",
+    "title": "保安队安全部署",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131012,
+    "name": "牡丹",
+    "title": "大朵夜空之花",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 131013,
+    "name": "伊路米",
+    "title": "为海岸送上演出★",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 131014,
+    "name": "贝尔赛蒂亚",
+    "title": "通往深渊的邀请",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 131020,
+    "name": "雷吉斯",
+    "title": "人性化模式",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131026,
+    "name": "布茜",
+    "title": "宇宙平面模特力量",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 131032,
+    "name": "洛蒂",
+    "title": "英雄布里吉翁",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131038,
+    "name": "兹茵可",
+    "title": "团队焦点",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131044,
+    "name": "斩铁",
+    "title": "正义一闪",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131050,
+    "name": "玛奇斯",
+    "title": "绝境嗅觉",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 131056,
+    "name": "塞拉",
+    "title": "海上专用·新式警卫计划",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131062,
+    "name": "丝特莱纳",
+    "title": "愤怒机械球棒",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131068,
+    "name": "梅姆拉姆",
+    "title": "维斯塔之刃",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 131074,
+    "name": "赫尔加",
+    "title": "“这样做”就行了吧？",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 131080,
+    "name": "千岳十织",
+    "title": "唯一的愿望",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 131086,
+    "name": "白",
+    "title": "强大的理由",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 131092,
+    "name": "特克托",
+    "title": "速成英雄",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131098,
+    "name": "茧月",
+    "title": "天网之丝",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 131104,
+    "name": "贝瑞塔",
+    "title": "Sky for You",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131110,
+    "name": "拉普缇娜",
+    "title": "前进的勇气",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131116,
+    "name": "露米拉卡",
+    "title": "深渊之夜的支配者？",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 131122,
+    "name": "绮拉",
+    "title": "决意的游行",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 131128,
+    "name": "兹茵可",
+    "title": "新年小队",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131134,
+    "name": "卡西瓦尔斯",
+    "title": "嗜欲的机体设计师",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131140,
+    "name": "蒂妮",
+    "title": "少女性中二病乡愁",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 131146,
+    "name": "里布拉姆",
+    "title": "赫克西斯哲学",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 131152,
+    "name": "约翰逊王",
+    "title": "stay cool",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131158,
+    "name": "天羽凪莉",
+    "title": "不屈不挠之剑",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 131164,
+    "name": "提欧",
+    "title": "由我觅见的夏天",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 131170,
+    "name": "塔吉斯",
+    "title": "我们最强！",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131176,
+    "name": "夏琳",
+    "title": "Ace of Sniper",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 131182,
+    "name": "莱特",
+    "title": "再次上演的童话",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141001,
+    "name": "希尔媞",
+    "title": "莎蒂雅的骄傲",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141002,
+    "name": "菲莉亚",
+    "title": "风眷顾的少女",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141003,
+    "name": "丛云",
+    "title": "坚定之物",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Undead,Element"
+  },
+  {
+    "id": 141004,
+    "name": "雷恩",
+    "title": "生还的意志",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141005,
+    "name": "西微",
+    "title": "晴空之爱",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141006,
+    "name": "米格里",
+    "title": "魔术师友人",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141007,
+    "name": "可可萝",
+    "title": "为了主人",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141008,
+    "name": "休尔特",
+    "title": "暴风之主",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Dragon"
+  },
+  {
+    "id": 141009,
+    "name": "二阶堂咲",
+    "title": "传说中的特攻队长",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 141015,
+    "name": "艾丝缇莉艾尔",
+    "title": "改变精灵之物",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141021,
+    "name": "希尔媞",
+    "title": "剑鬼·二刀流",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141027,
+    "name": "凉风",
+    "title": "回眸美人",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141033,
+    "name": "芙拉菲",
+    "title": "决心中的格斗术",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141039,
+    "name": "索妮雅",
+    "title": "连接繁星的月光之舞",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141045,
+    "name": "涅维亚",
+    "title": "观察并检验的贤者",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141051,
+    "name": "艾丝缇莉艾尔",
+    "title": "讴歌爱之人",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141057,
+    "name": "豪岚",
+    "title": "超越者的境界",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Mystery"
+  },
+  {
+    "id": 141063,
+    "name": "西微",
+    "title": "巨翼之恋",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141069,
+    "name": "雷恩",
+    "title": "无尽的冒险心",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141081,
+    "name": "芙拉菲",
+    "title": "赤红圣人的格斗术",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141087,
+    "name": "美美",
+    "title": "美美，会加油的！",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141093,
+    "name": "玛露琪亚",
+    "title": "于是少女与星同辉",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141099,
+    "name": "休尔特",
+    "title": "知人晓爱",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Dragon"
+  },
+  {
+    "id": 141105,
+    "name": "艾尔玛露",
+    "title": "米雷亚最强骑士",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141111,
+    "name": "无声铃鹿",
+    "title": "无声无瑕",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141117,
+    "name": "伊野里翔太",
+    "title": "夏日出道战",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141123,
+    "name": "真乃香",
+    "title": "微笑的镜像",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Undead,Element"
+  },
+  {
+    "id": 141129,
+    "name": "ユノ",
+    "title": "四つ葉の魔導書（グリモワール）",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141135,
+    "name": "泽菲尔",
+    "title": "带来幸福的风",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141141,
+    "name": "希尔科哈雷",
+    "title": "宇宙友情力量",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141147,
+    "name": "布茜",
+    "title": "休息日的秘密约会",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141153,
+    "name": "朝户八重",
+    "title": "八重之缘",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 141159,
+    "name": "罗尔夫",
+    "title": "踏上自己相信的路",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141165,
+    "name": "菲莉亚",
+    "title": "风与光眷爱之女",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141171,
+    "name": "夕日野太一",
+    "title": "太阳必将升起",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 141177,
+    "name": "操里缘子",
+    "title": "爱&诅咒",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141183,
+    "name": "芙拉菲",
+    "title": "光辉格斗术",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 141189,
+    "name": "画狂老人Z",
+    "title": "绘尽森罗万象",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 141201,
+    "name": "希尔媞",
+    "title": "开拓彼方之剑",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151001,
+    "name": "奈芙提姆",
+    "title": "夜空的恒星",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151002,
+    "name": "拉杰尔特",
+    "title": "王位继承者的自尊",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151003,
+    "name": "艾可莉儿",
+    "title": "闪耀的名剑斗士威光",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151004,
+    "name": "稻穗",
+    "title": "九尾迷人的姿态",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Mystery"
+  },
+  {
+    "id": 151005,
+    "name": "塔吉斯",
+    "title": "我最强！",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 151006,
+    "name": "贝瑞塔",
+    "title": "Way of Life",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 151007,
+    "name": "里布拉姆",
+    "title": "赫克西斯经营者",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151009,
+    "name": "奈芙提姆",
+    "title": "娱乐时期",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151011,
+    "name": "佩可莉姆",
+    "title": "厉害了呀☆",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151012,
+    "name": "莉菈",
+    "title": "音乐的魔法",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151013,
+    "name": "奥薇尔",
+    "title": "懒散的主教",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 151014,
+    "name": "菲拉梅里亚",
+    "title": "照亮黑暗的灯火",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151015,
+    "name": "星川莉莉",
+    "title": "传说中的天才童星",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 151021,
+    "name": "菲莉亚",
+    "title": "传承延续的愿望",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 151027,
+    "name": "艾莉亚",
+    "title": "流行的幕后推手",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 151033,
+    "name": "塞里奥尔",
+    "title": "光辉之臂",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151039,
+    "name": "莲月",
+    "title": "工作和玩乐都要全力以赴！",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151045,
+    "name": "莉莉丝",
+    "title": "觉醒野兽",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 151051,
+    "name": "稻穗",
+    "title": "共同所见之梦",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Mystery"
+  },
+  {
+    "id": 151057,
+    "name": "朝比奈实玖琉",
+    "title": "社团活动室限定的天使",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151063,
+    "name": "奈芙提姆",
+    "title": "某个夏天的回忆",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151069,
+    "name": "泽赫尔",
+    "title": "公会骑士团长",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151075,
+    "name": "莉菈",
+    "title": "万圣之乐",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 151081,
+    "name": "奥薇尔",
+    "title": "信仰所在",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 151087,
+    "name": "涅特",
+    "title": "情人节守护者",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "男性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 151093,
+    "name": "丝缇涅尔",
+    "title": "人啊，为善吧",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 151099,
+    "name": "奎茵薇德",
+    "title": "我的最棒准则",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 151105,
+    "name": "特别周",
+    "title": "特别追梦者",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 151111,
+    "name": "达克妮丝",
+    "title": "无尽的防御力",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151117,
+    "name": "斩铁",
+    "title": "盛夏武士道、碧海忍道",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 151123,
+    "name": "伊莉诺雅",
+    "title": "片刻勇气",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151129,
+    "name": "尤维尔",
+    "title": "飞燕，再临",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 151141,
+    "name": "菊野",
+    "title": "永不消散的白云",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 151147,
+    "name": "史黛拉",
+    "title": "向故事迈出的一步",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Dragon"
+  },
+  {
+    "id": 151153,
+    "name": "莱特",
+    "title": "充满决心的吉祥物",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Dragon"
+  },
+  {
+    "id": 151159,
+    "name": "拉夫马诺",
+    "title": "我乃圣龙王！",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Dragon"
+  },
+  {
+    "id": 151165,
+    "name": "阿尔克",
+    "title": "星辰啊，与我同在",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Undead,Dragon"
+  },
+  {
+    "id": 151171,
+    "name": "玉子",
+    "title": "大家的玉婆婆",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Undead,Element"
+  },
+  {
+    "id": 151182,
+    "name": "诺瓦",
+    "title": "明天也将同行",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 153001,
+    "name": "凪原直",
+    "title": "星辰啊，抓住未来",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161001,
+    "name": "贝尔赛蒂亚",
+    "title": "通向夹缝的门",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161002,
+    "name": "威隆",
+    "title": "老练猎手的隐爪",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161004,
+    "name": "莫弥亚",
+    "title": "魔剑士的霸气",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161005,
+    "name": "卡菈",
+    "title": "欢呼的诅咒声",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161006,
+    "name": "奥莉维尔",
+    "title": "对新世界的渴望",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161007,
+    "name": "凯露",
+    "title": "宰了你啊！？",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 161008,
+    "name": "爱丽丝",
+    "title": "世界上最淑女的人！",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161009,
+    "name": "绀野纯子",
+    "title": "传说中的昭和偶像",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 161015,
+    "name": "蒂亚",
+    "title": "响彻彼方的歌声",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 161021,
+    "name": "蒂妮",
+    "title": "噬星巫女",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161027,
+    "name": "艾迪凯斯",
+    "title": "暗影篝火",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Devil"
+  },
+  {
+    "id": 161033,
+    "name": "阿露姆",
+    "title": "阿露姆的礼物",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Devil"
+  },
+  {
+    "id": 161039,
+    "name": "珂艾特",
+    "title": "与虚无的接触",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 161045,
+    "name": "梅尔维奥拉",
+    "title": "因果不定的异能",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161051,
+    "name": "蒂妮",
+    "title": "沙漠决战规格",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161057,
+    "name": "贝阿朵丽丝",
+    "title": "恩布拉斯克的契约者",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161063,
+    "name": "赛吉尔",
+    "title": "鹰眼",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 161069,
+    "name": "普莉姆拉",
+    "title": "月下美人",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161081,
+    "name": "拉芙",
+    "title": "即便青涩也要一步步向前",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 161082,
+    "name": "伊野里翔太",
+    "title": "引力弹弓",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161087,
+    "name": "珂艾特",
+    "title": "虚无的路标",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 161093,
+    "name": "贝尔赛蒂亚",
+    "title": "于繁星与大地的狭缝间",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161099,
+    "name": "丛云",
+    "title": "与真理同在",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Undead,Element"
+  },
+  {
+    "id": 161105,
+    "name": "希尔狄嘉德",
+    "title": "侧耳倾听",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161111,
+    "name": "路易莉兹",
+    "title": "于镜之中",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161117,
+    "name": "里昂",
+    "title": "以尽头为目标的魔道",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161123,
+    "name": "普莉姆拉",
+    "title": "萌芽的夏空之花",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161129,
+    "name": "操里缘子",
+    "title": "清纯、正直、疯狂",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161135,
+    "name": "希尔媞",
+    "title": "剑风，蕴藏于心",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161141,
+    "name": "アスタ",
+    "title": "諦めない心",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161147,
+    "name": "埃尔摩尔",
+    "title": "维斯塔的慈爱",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 161153,
+    "name": "威隆",
+    "title": "遗留的工作",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161159,
+    "name": "尼尔娅娜",
+    "title": "于真正天空中刻下虚无",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161165,
+    "name": "塔娜奇埃拉",
+    "title": "非人的指导",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161171,
+    "name": "伊奥雷斯",
+    "title": "凝视光明的虚洞",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161177,
+    "name": "奈芙提姆",
+    "title": "为所有的黎明拉开帷幕",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161183,
+    "name": "澄波响",
+    "title": "心系他人的音色",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161189,
+    "name": "玛登",
+    "title": "噬星之暗",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 161195,
+    "name": "查特丽娜",
+    "title": "言语滔滔不绝",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 161201,
+    "name": "蕾薇",
+    "title": "朝霞的启程",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 163001,
+    "name": "八云",
+    "title": "八重剑",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211001,
+    "name": "阿赛尔",
+    "title": "追逐巨龙之人",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211002,
+    "name": "碧安卡",
+    "title": "女王气质",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211003,
+    "name": "花火",
+    "title": "忍者的蕴奥",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 211004,
+    "name": "阿须桐丸",
+    "title": "鬼之子",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 211005,
+    "name": "格莱德",
+    "title": "与诅咒之盾一起",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211006,
+    "name": "卡农",
+    "title": "遵从双枪的指引",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 211007,
+    "name": "璐璐卡",
+    "title": "特别取材",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211008,
+    "name": "蕾维",
+    "title": "领袖气质",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211009,
+    "name": "琪丽",
+    "title": "射击该用心中之眼",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 211010,
+    "name": "贝伊斯",
+    "title": "特攻队长的倔强",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 211011,
+    "name": "米尔米娜",
+    "title": "绽放的欲望",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211012,
+    "name": "娜希尔",
+    "title": "灼热怒火",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211013,
+    "name": "仓丸",
+    "title": "正直的心",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211014,
+    "name": "夕雾",
+    "title": "传说中的花魁",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 211020,
+    "name": "妮可拉",
+    "title": "炎之教鞭",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211026,
+    "name": "特蕾涅",
+    "title": "公会临时战斗教官",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211032,
+    "name": "舞姬",
+    "title": "神巫的使命",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211038,
+    "name": "阿赛尔",
+    "title": "另一个共存之梦",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211044,
+    "name": "绯河凛音",
+    "title": "寻求支柱",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211050,
+    "name": "皮西卡",
+    "title": "无国界的笑脸",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 211056,
+    "name": "蕾维",
+    "title": "美丽盛放的可能性之花",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 211062,
+    "name": "陈诗",
+    "title": "鬼怪根本不可怕！",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 213001,
+    "name": "阿尔克",
+    "title": "今晚吃大餐！",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 213007,
+    "name": "阿虚",
+    "title": "魅惑？的一般人类",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 213013,
+    "name": "凪原直",
+    "title": "抓住星星！",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221001,
+    "name": "尤维尔",
+    "title": "飞燕纹章",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221002,
+    "name": "莉洁儿",
+    "title": "清流的祈祷",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221003,
+    "name": "亚美莉亚",
+    "title": "冒失人鱼♡",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human,Aquatic"
+  },
+  {
+    "id": 221004,
+    "name": "爱丽丝",
+    "title": "保护好我呀！",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 221006,
+    "name": "夏农",
+    "title": "翻腾的铁球",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 221007,
+    "name": "萨尔",
+    "title": "深海之理",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Aquatic"
+  },
+  {
+    "id": 221008,
+    "name": "莫迪亚迦",
+    "title": "精灵的低语",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 221009,
+    "name": "蛟",
+    "title": "巨蛇妖力",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 221010,
+    "name": "索维",
+    "title": "扭曲的秘药研究者",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221011,
+    "name": "杰拉尔",
+    "title": "始终如一的骑士道",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221017,
+    "name": "薇薇",
+    "title": "如此美妙的背后",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221022,
+    "name": "崔丝塔",
+    "title": "对新年参观的憧憬",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221028,
+    "name": "珐颂",
+    "title": "爆裂激流",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 221034,
+    "name": "艾芙琳",
+    "title": "碧海弹丸",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 221040,
+    "name": "白乃",
+    "title": "倾国本性",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Mystery"
+  },
+  {
+    "id": 221053,
+    "name": "拉纳",
+    "title": "驰骋万圣的美少女",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221054,
+    "name": "鹰森诚司",
+    "title": "取回憧憬",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221060,
+    "name": "珐洛洛",
+    "title": "无敌海洋能量",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 221066,
+    "name": "皮西卡",
+    "title": "夏日微笑友人",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 221072,
+    "name": "法拉",
+    "title": "沉入沙尘的夕阳",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 221078,
+    "name": "菲妮",
+    "title": "跟我说说你的爱？",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 222001,
+    "name": "拉纳",
+    "title": "海军偶像",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 223001,
+    "name": "玛丽娜",
+    "title": "七彩斑斓的落日",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 223007,
+    "name": "索媞艾丝",
+    "title": "传承之愿",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 223013,
+    "name": "涅特",
+    "title": "人造英雄",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 223019,
+    "name": "露西娅妲",
+    "title": "共同迈向同一个梦想！",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231001,
+    "name": "拉姆斯",
+    "title": "共存之梦",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Dragon"
+  },
+  {
+    "id": 231002,
+    "name": "露娜露",
+    "title": "很有效的秘药",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 231003,
+    "name": "雷吉斯",
+    "title": "管理者编码",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 231004,
+    "name": "艾琳诺儿",
+    "title": "自豪的雷剑",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 231005,
+    "name": "杰",
+    "title": "寻求失传的睿智",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 231006,
+    "name": "米诺",
+    "title": "斗争气魄",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 231007,
+    "name": "欧雷欧",
+    "title": "两人的羁绊",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 231008,
+    "name": "阿德尼",
+    "title": "策士的慧眼",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231009,
+    "name": "露迪",
+    "title": "无原则实验",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 231012,
+    "name": "奈丝卡",
+    "title": "利刃兔女郎",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231013,
+    "name": "罗塞莉亚",
+    "title": "千钧一发的轮舞",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231014,
+    "name": "水野爱",
+    "title": "传说中的平成偶像",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 231020,
+    "name": "露娜露",
+    "title": "可疑的实验",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 231032,
+    "name": "阿德尼",
+    "title": "选择礼物的慧眼",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231038,
+    "name": "托·蕾蕾妮",
+    "title": "我可是成年女性！",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231044,
+    "name": "艾蒂塔",
+    "title": "跟上我的脚步！",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231050,
+    "name": "特尔娜",
+    "title": "让你麻酥酥的！",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231056,
+    "name": "吉泽尔",
+    "title": "对咒具的探知欲",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231063,
+    "name": "阿福",
+    "title": "座敷童子的恶作剧",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Mystery"
+  },
+  {
+    "id": 231069,
+    "name": "黑",
+    "title": "面向未来之见",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 231075,
+    "name": "艾蕾吉娅",
+    "title": "艾蕾吉娅维修服务",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231081,
+    "name": "琳卡莉娜",
+    "title": "激昂的设计师基因",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 231087,
+    "name": "奥涅斯特",
+    "title": "善意模仿",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 231093,
+    "name": "艾尔梅丽莎",
+    "title": "上位者的资质",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 231099,
+    "name": "英维特拉",
+    "title": "非凡灵感",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 233001,
+    "name": "普莉卡",
+    "title": "充盈的想象力",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 233007,
+    "name": "提欧",
+    "title": "找到你了哦",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 233013,
+    "name": "艾可",
+    "title": "夏日摄影",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 241001,
+    "name": "米娅",
+    "title": "浪漫的探求者",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 241002,
+    "name": "奥罗尔",
+    "title": "鸟族的骄傲",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 241003,
+    "name": "宗士郎",
+    "title": "七月七夜之梦",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 241004,
+    "name": "梅露希儿",
+    "title": "精灵的护符",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 241005,
+    "name": "赫尔加",
+    "title": "白狼的嗅觉",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 241006,
+    "name": "蕾贝卡",
+    "title": "上上签保佑",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 241007,
+    "name": "露",
+    "title": "天真无邪的冒险心",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 241008,
+    "name": "凉风",
+    "title": "啊哇哇斩！",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 241009,
+    "name": "小羽",
+    "title": "目标是都市丽人！",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 241015,
+    "name": "哈奥",
+    "title": "承载生命之风",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 241021,
+    "name": "拉姆",
+    "title": "千里眼",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 241027,
+    "name": "里卡尔德",
+    "title": "一决胜负吧！",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 241033,
+    "name": "米迪",
+    "title": "触地飓风",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 241039,
+    "name": "皮亚莫",
+    "title": "固定收入太棒了",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 241045,
+    "name": "路马尔克",
+    "title": "鹰眼",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 241051,
+    "name": "玛卡妮",
+    "title": "和大家一起的修行！",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 241057,
+    "name": "米尔米娜",
+    "title": "刺痛还是奖励",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 241063,
+    "name": "凉月",
+    "title": "我是画师！",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 241069,
+    "name": "芙兰",
+    "title": "诛脚的使命",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 243001,
+    "name": "亚里莎",
+    "title": "精灵弓",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 243007,
+    "name": "鹄",
+    "title": "绘符式神",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 243013,
+    "name": "白",
+    "title": "我的运气很好",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 243019,
+    "name": "梅莉安娜",
+    "title": "独一无二的心意与勇气",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 251001,
+    "name": "蒂亚",
+    "title": "♪《Lullaby for salvation》",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 251002,
+    "name": "杰拉尔",
+    "title": "骑士道的传承",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 251003,
+    "name": "艾莉亚",
+    "title": "热情与光彩",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 251004,
+    "name": "芬",
+    "title": "自卫团  二把手",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 251005,
+    "name": "绮拉",
+    "title": "自卫团的邀请",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 251006,
+    "name": "莱亚",
+    "title": "笔直奔向梦想",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 251007,
+    "name": "霍普",
+    "title": "生意人的嗅觉",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 251008,
+    "name": "伊路米",
+    "title": "梦想之光！",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 251009,
+    "name": "芙洛丽塔",
+    "title": "危险的作战",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 251010,
+    "name": "莉洁儿",
+    "title": "度假治愈笑容",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 251011,
+    "name": "琪亚娜",
+    "title": "咔嚓一下开启吧",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 251017,
+    "name": "莉莉丝",
+    "title": "伟大誓约",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 251023,
+    "name": "梅克",
+    "title": "医学探究者",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 251029,
+    "name": "赛希莉亚",
+    "title": "一同前行的骑士道",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 251035,
+    "name": "蒂蕾特",
+    "title": "来一场激烈的对决吧！",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 251041,
+    "name": "芙洛丽塔",
+    "title": "对故乡永不褪色的思念",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 251047,
+    "name": "菲妮",
+    "title": "前往梦乡",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 251053,
+    "name": "萨莉哈",
+    "title": "向黎明而行的意志",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 251059,
+    "name": "菲勒斯",
+    "title": "小丑的祝福",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Devil"
+  },
+  {
+    "id": 251065,
+    "name": "卡菈薇娜",
+    "title": "三分钟搞定",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 251071,
+    "name": "克拉尔缇",
+    "title": "小小接线员",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 251077,
+    "name": "优娜",
+    "title": "请问您要点什么？",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 253001,
+    "name": "帕尔菲",
+    "title": "食物开拓者",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 253007,
+    "name": "索维",
+    "title": "秘药研究者（毛）",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 253013,
+    "name": "史黛拉",
+    "title": "觅见的宝物",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Dragon"
+  },
+  {
+    "id": 253019,
+    "name": "瓦雷因",
+    "title": "于光芒下集结",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 261001,
+    "name": "阿露姆",
+    "title": "天真的破坏者",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Devil"
+  },
+  {
+    "id": 261003,
+    "name": "玛丽安",
+    "title": "武斗派侍者",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 261004,
+    "name": "安迪",
+    "title": "永恒之人",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 261005,
+    "name": "里昂",
+    "title": "窥探深渊的眼眸",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 261006,
+    "name": "尤维尔",
+    "title": "案板前的气魄",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261007,
+    "name": "赛吉尔",
+    "title": "全员注意，准备射击！",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 261008,
+    "name": "露娜",
+    "title": "死灵法师",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 261009,
+    "name": "玛格丽特",
+    "title": "你们真是太美了！",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 261010,
+    "name": "格里格",
+    "title": "就请依靠我吧！",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261011,
+    "name": "布莱斯",
+    "title": "高度验证实验",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261017,
+    "name": "法露伽",
+    "title": "亡魂恶作剧",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261023,
+    "name": "塞尔玛",
+    "title": "危险的熏烟",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261029,
+    "name": "厄莉",
+    "title": "崭新的一步",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Devil"
+  },
+  {
+    "id": 261035,
+    "name": "爱德华",
+    "title": "来自未知的呼唤",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261041,
+    "name": "伦达尔",
+    "title": "重逢之旅",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261047,
+    "name": "塔维尔",
+    "title": "遗物的恩惠",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 261053,
+    "name": "古泉一树",
+    "title": "好好先生的美丽旋律",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261059,
+    "name": "薇尔吉娅",
+    "title": "美丽花朵皆有毒",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 261065,
+    "name": "影丘龙一",
+    "title": "吾名为龙",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261071,
+    "name": "紫苑",
+    "title": "只属于我的特殊情报",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261077,
+    "name": "绯河凛音",
+    "title": "小绯的推荐任务",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261083,
+    "name": "荷莉",
+    "title": "为了健康的圣夜",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 261089,
+    "name": "阿鲁玛德乌斯",
+    "title": "继承的记忆",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Dragon"
+  },
+  {
+    "id": 263001,
+    "name": "葵泽",
+    "title": "丽人的品格",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 263002,
+    "name": "拉芙",
+    "title": "被设计出来的完美统治者",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 263003,
+    "name": "山田多惠",
+    "title": "传说中的山田多惠",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 263009,
+    "name": "菜月·昴",
+    "title": "魔女的宠爱",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 263015,
+    "name": "和真",
+    "title": "我有个妙计！！",
+    "rarity": "4★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 311001,
+    "name": "莉莉露",
+    "title": "莉莉露的大实验！",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 311002,
+    "name": "梅米",
+    "title": "与皮皮的信赖",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 311003,
+    "name": "伊莉斯",
+    "title": "背负着过去的子弹",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 311004,
+    "name": "哈修",
+    "title": "生存的技术",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 311005,
+    "name": "仁",
+    "title": "隐藏手术道具",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 311006,
+    "name": "特蕾涅",
+    "title": "中尉襟章",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 311008,
+    "name": "吉斯拉多",
+    "title": "不过瘾",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 311009,
+    "name": "恩妮",
+    "title": "灯火守护",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 311010,
+    "name": "杰克",
+    "title": "推荐按规则冒险",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 311011,
+    "name": "可兰",
+    "title": "风的引导",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "女性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 311012,
+    "name": "哈丽莎",
+    "title": "第三眼滴油疗法",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 311013,
+    "name": "斯文",
+    "title": "对英雄的憧憬",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 311019,
+    "name": "莉莉安",
+    "title": "任何衣服都包在我身上！",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 311025,
+    "name": "克劳斯",
+    "title": "有借有还",
+    "rarity": "3★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 321001,
+    "name": "凯洛斯",
+    "title": "毒药的心得",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 321002,
+    "name": "崔丝塔",
+    "title": "对祖母的憧憬",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 321003,
+    "name": "瓦尔塔",
+    "title": "温柔的巨人",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 321004,
+    "name": "艾尔莎",
+    "title": "可疑的诊察",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 321005,
+    "name": "克劳斯",
+    "title": "冷静沉着",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 321006,
+    "name": "白乃",
+    "title": "九尾的从者",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Mystery"
+  },
+  {
+    "id": 321007,
+    "name": "诲谕",
+    "title": "滴酒不洒",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 321008,
+    "name": "拉蒂",
+    "title": "贯彻水兵道",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 321009,
+    "name": "法夫",
+    "title": "幼龙的双眸",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Dragon"
+  },
+  {
+    "id": 321010,
+    "name": "莉可",
+    "title": "灵泉冥助",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 321011,
+    "name": "克菈菈",
+    "title": "竭力鼓起的勇气",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 321012,
+    "name": "纱玛莎",
+    "title": "享受都市生活！",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 321013,
+    "name": "莉塔",
+    "title": "静默侦查",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 323001,
+    "name": "茶露亚",
+    "title": "圣树的祝福",
+    "rarity": "3★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Plants,Element"
+  },
+  {
+    "id": 331001,
+    "name": "优娜",
+    "title": "爱照顾人的姐姐",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 331002,
+    "name": "赫妮",
+    "title": "女王蜂",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Beast"
+  },
+  {
+    "id": 331003,
+    "name": "泰加",
+    "title": "近身魔法格斗术",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Element"
+  },
+  {
+    "id": 331004,
+    "name": "黑",
+    "title": "权谋术数",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 331005,
+    "name": "阿尔伯特",
+    "title": "天狼的自豪",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 331006,
+    "name": "加津知",
+    "title": "气迫雷击",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Mystery"
+  },
+  {
+    "id": 331007,
+    "name": "泰奇安娜",
+    "title": "白醉千鸟",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 331010,
+    "name": "科特",
+    "title": "早熟的商才",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 331011,
+    "name": "夏·丝丝",
+    "title": "铳支机械师",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 331012,
+    "name": "芙拉",
+    "title": "水晶球的指引",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 331013,
+    "name": "卑尔根",
+    "title": "森林中的老兵",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 331014,
+    "name": "芙拉娜",
+    "title": "轻飘飘地~上吧！",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 331020,
+    "name": "菲·诺诺亚",
+    "title": "雨伞好心情",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 333001,
+    "name": "缪",
+    "title": "艺道一直线",
+    "rarity": "3★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 341001,
+    "name": "伊凡",
+    "title": "冒险者哥哥",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 341002,
+    "name": "茶露亚",
+    "title": "自然之力",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Plants,Element"
+  },
+  {
+    "id": 341003,
+    "name": "瑞西塔尔",
+    "title": "世界树的加护",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Undead"
+  },
+  {
+    "id": 341004,
+    "name": "奈丝卡",
+    "title": "胜负师的直觉",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 341005,
+    "name": "缪",
+    "title": "拼尽全力",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 341006,
+    "name": "菲勒斯",
+    "title": "比恶魔更加恶魔",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Devil"
+  },
+  {
+    "id": 341007,
+    "name": "荷莉",
+    "title": "为了患者",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 341008,
+    "name": "科那",
+    "title": "怀守旋风",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 341009,
+    "name": "贾斯塔",
+    "title": "乐于设陷阱",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 341010,
+    "name": "凯特",
+    "title": "义愤自尊",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 341011,
+    "name": "涅迪",
+    "title": "涅迪式魔法理论",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 341017,
+    "name": "米蕾特",
+    "title": "对冒险谭的憧憬",
+    "rarity": "3★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 351001,
+    "name": "可莉娜",
+    "title": "神圣的祈祷",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 351002,
+    "name": "玛格丽特",
+    "title": "我真是太美了！",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 351003,
+    "name": "赛希莉亚",
+    "title": "骑士的义务",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 351004,
+    "name": "欧雷欧",
+    "title": "无双的搭档",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 351005,
+    "name": "劳尔",
+    "title": "嘉客似云来",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 351006,
+    "name": "米雷斯",
+    "title": "执意护卫",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 351007,
+    "name": "璐璐卡",
+    "title": "寻找独家新闻",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 351008,
+    "name": "加萝",
+    "title": "野性本能",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 351009,
+    "name": "摩菈",
+    "title": "爆裂的好奇心",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Beast"
+  },
+  {
+    "id": 351015,
+    "name": "可莉娜",
+    "title": "万圣节孩童领队",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 351021,
+    "name": "可莎",
+    "title": "训练有素的行动",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 351027,
+    "name": "阿克塞姆",
+    "title": "火爆技巧",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "男性",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 351033,
+    "name": "鲁·鲁特",
+    "title": "姐姐，抱抱我嘛~？",
+    "rarity": "3★",
+    "element": "光",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 361001,
+    "name": "法露伽",
+    "title": "灵视能力",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 361002,
+    "name": "札里尔",
+    "title": "砂月秘技",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 361003,
+    "name": "厄莉",
+    "title": "原魔王军战士",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Devil"
+  },
+  {
+    "id": 361004,
+    "name": "紫苑",
+    "title": "购买秘密",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 361005,
+    "name": "阿迪尔",
+    "title": "共同生存",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 361006,
+    "name": "桃乐西亚",
+    "title": "泰然的温柔心",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 361007,
+    "name": "蕾贝卡",
+    "title": "驭影奇才",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 361008,
+    "name": "诺塞尔",
+    "title": "被爱的体质",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 361009,
+    "name": "梅利露",
+    "title": "社团·微醺绵羊",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 361015,
+    "name": "梅利露",
+    "title": "流派《梅利露》",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 361021,
+    "name": "塔尔哈",
+    "title": "绷带恶作剧",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Undead"
+  },
+  {
+    "id": 361027,
+    "name": "科迪",
+    "title": "跃进之刃",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 361033,
+    "name": "露西尔",
+    "title": "事件来了呢！！",
+    "rarity": "3★",
+    "element": "暗",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 412004,
+    "name": "魔像",
+    "title": "",
+    "rarity": "2★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Machine"
+  },
+  {
+    "id": 442004,
+    "name": "波吉特",
+    "title": "",
+    "rarity": "2★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Beast"
+  },
+  {
+    "id": 442006,
+    "name": "镰鼬",
+    "title": "",
+    "rarity": "2★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Beast,Mystery"
+  },
+  {
+    "id": 443001,
+    "name": "C·F·奇迹",
+    "title": "",
+    "rarity": "2★",
+    "element": "风",
+    "gender": "女性",
+    "race": "Machine"
+  },
+  {
+    "id": 443002,
+    "name": "斗和奇迹",
+    "title": "",
+    "rarity": "2★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Human"
+  },
+  {
+    "id": 512001,
+    "name": "蘑仔",
+    "title": "",
+    "rarity": "1★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Plants,Element"
+  },
+  {
+    "id": 512002,
+    "name": "红波露",
+    "title": "",
+    "rarity": "1★",
+    "element": "火",
+    "gender": "男性",
+    "race": "Element"
+  },
+  {
+    "id": 512004,
+    "name": "火精",
+    "title": "",
+    "rarity": "1★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Element"
+  },
+  {
+    "id": 522001,
+    "name": "蓝波露",
+    "title": "",
+    "rarity": "1★",
+    "element": "水",
+    "gender": "男性",
+    "race": "Element"
+  },
+  {
+    "id": 532001,
+    "name": "黄波露",
+    "title": "",
+    "rarity": "1★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Element"
+  },
+  {
+    "id": 532004,
+    "name": "帕拉鼠",
+    "title": "",
+    "rarity": "1★",
+    "element": "雷",
+    "gender": "女性",
+    "race": "Beast"
+  },
+  {
+    "id": 542001,
+    "name": "绿波露",
+    "title": "",
+    "rarity": "1★",
+    "element": "风",
+    "gender": "男性",
+    "race": "Element"
+  },
+  {
+    "id": 700000,
+    "name": "鹄",
+    "title": "临时保护",
+    "rarity": "4★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700001,
+    "name": "アシストキャラ",
+    "title": "devil_leader_assist",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700002,
+    "name": "アシストキャラ",
+    "title": "elf_princess_assist",
+    "rarity": "5★",
+    "element": "风",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700003,
+    "name": "アシストキャラ",
+    "title": "resistance_princess_assist",
+    "rarity": "4★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700004,
+    "name": "アシストキャラ",
+    "title": "memuramu_assist",
+    "rarity": "4★",
+    "element": "雷",
+    "gender": "不明",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 700005,
+    "name": "アシストキャラ",
+    "title": "zehheru_assist",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700006,
+    "name": "ハーリダル",
+    "title": "曙光の誓い",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700007,
+    "name": "索媞艾丝",
+    "title": "传承延续的愿望",
+    "rarity": "4★",
+    "element": "水",
+    "gender": "女性",
+    "race": "Human"
+  },
+  {
+    "id": 700008,
+    "name": "アシストキャラ",
+    "title": "justice_lady_assist",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Machine"
+  },
+  {
+    "id": 700009,
+    "name": "阿尔克",
+    "title": "通往星之路",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700010,
+    "name": "阿尔克",
+    "title": "通往星之路",
+    "rarity": "4★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700011,
+    "name": "见岛勇希",
+    "title": "只属于我的世界",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700012,
+    "name": "伊野里翔太",
+    "title": "仮の加護",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700013,
+    "name": "白",
+    "title": "仮",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 700014,
+    "name": "赛法",
+    "title": "仮",
+    "rarity": "5★",
+    "element": "水",
+    "gender": "不明",
+    "race": "Human,Element"
+  },
+  {
+    "id": 700015,
+    "name": "白",
+    "title": "饯别咆哮",
+    "rarity": "5★",
+    "element": "雷",
+    "gender": "男性",
+    "race": "Human,Beast"
+  },
+  {
+    "id": 700016,
+    "name": "莱特",
+    "title": "传说中的勇者",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700017,
+    "name": "阿尔克",
+    "title": "暂行加护",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human,Devil"
+  },
+  {
+    "id": 700018,
+    "name": "史黛拉",
+    "title": "暂行加护",
+    "rarity": "5★",
+    "element": "光",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 700019,
+    "name": "蕾薇",
+    "title": "暂行加护",
+    "rarity": "5★",
+    "element": "暗",
+    "gender": "不明",
+    "race": "Human"
+  },
+  {
+    "id": 999999,
+    "name": "夏可缇",
+    "title": "临时保护",
+    "rarity": "5★",
+    "element": "火",
+    "gender": "不明",
+    "race": "Human"
+  }
+]

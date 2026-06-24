@@ -1,0 +1,205 @@
+{
+    "700001": {
+        "1": [
+            {
+                "fromRank": 2,
+                "toRank": 3,
+                "kind": 7,
+                "kindId": 64000,
+                "number": 1
+            }
+        ],
+        "2": [
+            {
+                "fromRank": 4,
+                "toRank": 5,
+                "kind": 7,
+                "kindId": 64001,
+                "number": 1
+            }
+        ],
+        "3": [
+            {
+                "fromRank": 6,
+                "toRank": 9999,
+                "kind": 7,
+                "kindId": 64002,
+                "number": 1
+            }
+        ]
+    },
+    "700002": {
+        "1": [
+            {
+                "fromRank": 2,
+                "toRank": 3,
+                "kind": 7,
+                "kindId": 64003,
+                "number": 1
+            }
+        ],
+        "2": [
+            {
+                "fromRank": 4,
+                "toRank": 5,
+                "kind": 7,
+                "kindId": 64004,
+                "number": 1
+            }
+        ],
+        "3": [
+            {
+                "fromRank": 6,
+                "toRank": 9999,
+                "kind": 7,
+                "kindId": 64005,
+                "number": 1
+            }
+        ]
+    },
+    "700003": {
+        "1": [
+            {
+                "fromRank": 2,
+                "toRank": 3,
+                "kind": 7,
+                "kindId": 64006,
+                "number": 1
+            }
+        ],
+        "2": [
+            {
+                "fromRank": 4,
+                "toRank": 5,
+                "kind": 7,
+                "kindId": 64007,
+                "number": 1
+            }
+        ],
+        "3": [
+            {
+                "fromRank": 6,
+                "toRank": 9999,
+                "kind": 7,
+                "kindId": 64008,
+                "number": 1
+            }
+        ]
+    },
+    "700004": {
+        "1": [
+            {
+                "fromRank": 2,
+                "toRank": 3,
+                "kind": 7,
+                "kindId": 64009,
+                "number": 1
+            }
+        ],
+        "2": [
+            {
+                "fromRank": 4,
+                "toRank": 5,
+                "kind": 7,
+                "kindId": 64010,
+                "number": 1
+            }
+        ],
+        "3": [
+            {
+                "fromRank": 6,
+                "toRank": 9999,
+                "kind": 7,
+                "kindId": 64011,
+                "number": 1
+            }
+        ]
+    },
+    "700005": {
+        "1": [
+            {
+                "fromRank": 2,
+                "toRank": 3,
+                "kind": 7,
+                "kindId": 64012,
+                "number": 1
+            }
+        ],
+        "2": [
+            {
+                "fromRank": 4,
+                "toRank": 5,
+                "kind": 7,
+                "kindId": 64013,
+                "number": 1
+            }
+        ],
+        "3": [
+            {
+                "fromRank": 6,
+                "toRank": 9999,
+                "kind": 7,
+                "kindId": 64014,
+                "number": 1
+            }
+        ]
+    },
+    "700006": {
+        "1": [
+            {
+                "fromRank": 2,
+                "toRank": 3,
+                "kind": 7,
+                "kindId": 64015,
+                "number": 1
+            }
+        ],
+        "2": [
+            {
+                "fromRank": 4,
+                "toRank": 5,
+                "kind": 7,
+                "kindId": 64016,
+                "number": 1
+            }
+        ],
+        "3": [
+            {
+                "fromRank": 6,
+                "toRank": 9999,
+                "kind": 7,
+                "kindId": 64017,
+                "number": 1
+            }
+        ]
+    },
+    "700007": {
+        "1": [
+            {
+                "fromRank": 2,
+                "toRank": 3,
+                "kind": 7,
+                "kindId": 64018,
+                "number": 1
+            }
+        ],
+        "2": [
+            {
+                "fromRank": 4,
+                "toRank": 5,
+                "kind": 7,
+                "kindId": 64019,
+                "number": 1
+            }
+        ],
+        "3": [
+            {
+                "fromRank": 6,
+                "toRank": 9999,
+                "kind": 7,
+                "kindId": 64020,
+                "number": 1
+            }
+        ]
+    }
+}

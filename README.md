@@ -24,6 +24,13 @@
 
 ## 從原始碼建置
 
-本 repo 不含執行檔與大型 bundled runtime(Node / server / JDK / FFDec 等,build 時組裝)。備妥 `resources/` 後執行 `pwsh scripts/build-release.ps1` 即可產生安裝檔。
+clone 後即含完整 bundled runtime(Node / 已編譯 server / JDK / FFDec / build-tools 都在 `resources/`),可直接建置。需求:Rust 工具鏈(`cargo`)、Windows WebView2(Win10/11 內建)。
+
+```
+npm install
+npx tauri build
+```
+
+產出 `src-tauri/target/release/bundle/nsis/StartPointCNLauncher_0.1.0_x64-setup.exe`。若要同步更新 server 原始碼後再打包,改用 `pwsh scripts/build-release.ps1`(見該腳本說明)。
 
 授權:GPL-3.0-or-later(沿用 starpoint / startpoint-cn)。

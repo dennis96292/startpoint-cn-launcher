@@ -1,0 +1,3145 @@
+[
+  {
+    "name": "男主",
+    "code_number": "1",
+    "code_name": "alk",
+    "rarity": 4,
+    "source": "教程/初始角色"
+  },
+  {
+    "name": "小白",
+    "code_number": "10",
+    "code_name": "white_tiger",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "火龙",
+    "code_number": "111001",
+    "code_name": "fire_dragon",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "船长",
+    "code_number": "111002",
+    "code_name": "pirates_girl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "佐仓",
+    "code_number": "111003",
+    "code_name": "clarisse",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "舞娘",
+    "code_number": "121001",
+    "code_name": "brown_fighter",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "yyr",
+    "code_number": "121002",
+    "code_name": "onmyoji_boy",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷狐狸",
+    "code_number": "131001",
+    "code_name": "fox_oracle",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "老男人",
+    "code_number": "131002",
+    "code_name": "cagliostro",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小七",
+    "code_number": "141001",
+    "code_name": "wind_spgirl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风奶",
+    "code_number": "141002",
+    "code_name": "wind_oracle",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "丛云",
+    "code_number": "141003",
+    "code_name": "katana_ghost",
+    "rarity": 5,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "风gay",
+    "code_number": "141004",
+    "code_name": "mercenary",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "普黑",
+    "code_number": "151001",
+    "code_name": "ruin_girl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "王子",
+    "code_number": "151002",
+    "code_name": "prince_zero",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "02",
+    "code_number": "151003",
+    "code_name": "bodysuit_trooper",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "按摩女",
+    "code_number": "161001",
+    "code_name": "dimension_witch",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "暗gay",
+    "code_number": "161002",
+    "code_name": "veteran_hunter",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "龙骑",
+    "code_number": "211001",
+    "code_name": "dragon_slayer",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "龙妈",
+    "code_number": "211002",
+    "code_name": "lady_summoner",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火忍",
+    "code_number": "211003",
+    "code_name": "kunoichi",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火鬼",
+    "code_number": "211004",
+    "code_name": "half_oni_boy",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火盾",
+    "code_number": "211005",
+    "code_name": "master_knight",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "飞燕",
+    "code_number": "221001",
+    "code_name": "swallow_knight",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水奶",
+    "code_number": "221002",
+    "code_name": "bishop_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "人鱼",
+    "code_number": "221003",
+    "code_name": "mermaid",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "爱丽丝",
+    "code_number": "221004",
+    "code_name": "alice",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "铁球",
+    "code_number": "221006",
+    "code_name": "battle_guild_staff",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水兵",
+    "code_number": "222001",
+    "code_name": "spry_sailor",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "雷龙",
+    "code_number": "231001",
+    "code_name": "thunder_dragon",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "化学家",
+    "code_number": "231002",
+    "code_name": "fox_scientist",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "普机",
+    "code_number": "231003",
+    "code_name": "rec_android",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "星之焰",
+    "code_number": "231004",
+    "code_name": "elf_soldier",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "老猫",
+    "code_number": "231005",
+    "code_name": "cat_shaman",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "雷牛",
+    "code_number": "231006",
+    "code_name": "minotaur_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "虎娘",
+    "code_number": "241001",
+    "code_name": "tiger_treasure_hunter",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风鸟人",
+    "code_number": "241002",
+    "code_name": "birdman",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "四郎",
+    "code_number": "241003",
+    "code_name": "samurai",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "顿足弓",
+    "code_number": "241004",
+    "code_name": "elf_archer",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风狗",
+    "code_number": "241005",
+    "code_name": "dog_slasher",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "歌姬",
+    "code_number": "251001",
+    "code_name": "sing_android",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "光骑",
+    "code_number": "251002",
+    "code_name": "unicorn_lancer",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光弹",
+    "code_number": "251003",
+    "code_name": "lightbullet_wiz",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "芬",
+    "code_number": "251004",
+    "code_name": "palpebra_knight",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "莓",
+    "code_number": "251005",
+    "code_name": "palpebra_knight_lady",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "阿鲁姆",
+    "code_number": "261001",
+    "code_name": "devil_princess",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "暗女仆",
+    "code_number": "261003",
+    "code_name": "battle_maid",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "棺材弟",
+    "code_number": "261004",
+    "code_name": "undead_boy",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "里昂",
+    "code_number": "261005",
+    "code_name": "warlock",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小炼金",
+    "code_number": "311001",
+    "code_name": "alchemist",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "松鼠妹",
+    "code_number": "311002",
+    "code_name": "pretty_witch",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火牛仔",
+    "code_number": "311003",
+    "code_name": "gunslinger",
+    "rarity": 3,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "哈修",
+    "code_number": "311004",
+    "code_name": "monster_hunter",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火医生",
+    "code_number": "311005",
+    "code_name": "black_doctor",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "红剑",
+    "code_number": "311006",
+    "code_name": "cool_woman_soldier",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小火尼",
+    "code_number": "311008",
+    "code_name": "berserker",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火巫女",
+    "code_number": "311009",
+    "code_name": "fire_shaman",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "杰克",
+    "code_number": "311010",
+    "code_name": "disciplined_swordman",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水毒箭",
+    "code_number": "321001",
+    "code_name": "sniper",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水剑",
+    "code_number": "321002",
+    "code_name": "urban_soldier",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水战士",
+    "code_number": "321003",
+    "code_name": "hard_face_soldier",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水护士",
+    "code_number": "321004",
+    "code_name": "nurse",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水狼",
+    "code_number": "321005",
+    "code_name": "wolf_assassin",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水狐狸",
+    "code_number": "321006",
+    "code_name": "fox_companion",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "酒奶",
+    "code_number": "321007",
+    "code_name": "depraved_monk",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小水兵",
+    "code_number": "321008",
+    "code_name": "sailor_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小水龙",
+    "code_number": "321009",
+    "code_name": "cute_fafnir",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "剑奶",
+    "code_number": "321010",
+    "code_name": "mens_attire_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷双剑",
+    "code_number": "331001",
+    "code_name": "twin_blader",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "蜜蜂",
+    "code_number": "331002",
+    "code_name": "bee_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷老头",
+    "code_number": "331003",
+    "code_name": "lightning_fighter",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "黑豹",
+    "code_number": "331004",
+    "code_name": "outlaw_panther",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷狼",
+    "code_number": "331005",
+    "code_name": "wolf_swordsman",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "加津知",
+    "code_number": "331006",
+    "code_name": "oni_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷酒鬼",
+    "code_number": "331007",
+    "code_name": "sociable_mestizo",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷面包",
+    "code_number": "331010",
+    "code_name": "magic_boy",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "技工",
+    "code_number": "331011",
+    "code_name": "student_gunsmith",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "伊凡",
+    "code_number": "341001",
+    "code_name": "highlander",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "树精",
+    "code_number": "341002",
+    "code_name": "dryad",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "胜负",
+    "code_number": "341004",
+    "code_name": "casino_dealer",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风猫猫",
+    "code_number": "341005",
+    "code_name": "cat_fighter",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小丑",
+    "code_number": "341006",
+    "code_name": "devil_clown",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "草药师",
+    "code_number": "341007",
+    "code_name": "herbalist",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风枪",
+    "code_number": "341008",
+    "code_name": "spearman",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风牛仔",
+    "code_number": "341009",
+    "code_name": "trap_errand",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小光奶",
+    "code_number": "351001",
+    "code_name": "priest",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光蔷薇",
+    "code_number": "351002",
+    "code_name": "lady_gunner",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光女骑",
+    "code_number": "351003",
+    "code_name": "woman_knight",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光企鹅",
+    "code_number": "351004",
+    "code_name": "docking_beast",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "酒保",
+    "code_number": "351005",
+    "code_name": "exorcist_oldman",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小骑士",
+    "code_number": "351006",
+    "code_name": "half_knight",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光记者",
+    "code_number": "351007",
+    "code_name": "reporter",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "镰刀妹",
+    "code_number": "361001",
+    "code_name": "reaper_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "轮子哥",
+    "code_number": "361002",
+    "code_name": "chakram_shooter",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "鳄梨",
+    "code_number": "361003",
+    "code_name": "devil_woman_soldier",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "情报屋",
+    "code_number": "361004",
+    "code_name": "informant",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小暗gay",
+    "code_number": "361005",
+    "code_name": "arabic_swordman",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "坏女仆",
+    "code_number": "361006",
+    "code_name": "dark_nursemaid",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "暗兔子",
+    "code_number": "361007",
+    "code_name": "bearish_darkwitch",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "亚里沙",
+    "code_number": "243001",
+    "code_name": "arisa",
+    "rarity": 4,
+    "source": "教程/初始角色"
+  },
+  {
+    "name": "火弹",
+    "code_number": "211006",
+    "code_name": "red_gunner",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷奶",
+    "code_number": "331012",
+    "code_name": "fortuneteller",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "狼妹",
+    "code_number": "351008",
+    "code_name": "wild_wolfgirl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "丽人",
+    "code_number": "263001",
+    "code_name": "sword_beauty",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "冰魔女",
+    "code_number": "121004",
+    "code_name": "ice_witch",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "按摩剑",
+    "code_number": "161004",
+    "code_name": "blade_witch",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷策",
+    "code_number": "231008",
+    "code_name": "black_hair_swordman",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "凯特",
+    "code_number": "341010",
+    "code_name": "gang_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "花魁",
+    "code_number": "111006",
+    "code_name": "compliment_oiran",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷弓",
+    "code_number": "131004",
+    "code_name": "thunder_archer",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火剑",
+    "code_number": "211008",
+    "code_name": "shapely_soldier",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风狗狗",
+    "code_number": "241007",
+    "code_name": "beast_adventurer",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火鸟人",
+    "code_number": "311011",
+    "code_name": "birdwoman",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水坦",
+    "code_number": "121005",
+    "code_name": "commander",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "蛾子",
+    "code_number": "141005",
+    "code_name": "bigwing_shaman",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "毒男",
+    "code_number": "221007",
+    "code_name": "deepsea_mage",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "胆小鬼",
+    "code_number": "361008",
+    "code_name": "monster_attract",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火狼",
+    "code_number": "111007",
+    "code_name": "black_wolf_knight",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷拳",
+    "code_number": "131005",
+    "code_name": "mighty_striker",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风忍",
+    "code_number": "241008",
+    "code_name": "timid_kunoichi",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "奇术师",
+    "code_number": "251006",
+    "code_name": "illusionist",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "神速",
+    "code_number": "151005",
+    "code_name": "starbreak_hunter",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光炮",
+    "code_number": "151006",
+    "code_name": "combat_soldier",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "阿拉丁",
+    "code_number": "221008",
+    "code_name": "desert_wizard",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "蓝毛",
+    "code_number": "251007",
+    "code_name": "unleash_hunter",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "太母",
+    "code_number": "263002",
+    "code_name": "touyakiren_ceo",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "子龙",
+    "code_number": "121006",
+    "code_name": "lakeside_guardian",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "蛇女",
+    "code_number": "161005",
+    "code_name": "cursed_girl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "黑机娘",
+    "code_number": "231009",
+    "code_name": "lady_android",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "珍兽",
+    "code_number": "251008",
+    "code_name": "unyielding_adventurer",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "腐女",
+    "code_number": "361009",
+    "code_name": "delusion_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "红茶",
+    "code_number": "141006",
+    "code_name": "gentle_barten",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "天狗",
+    "code_number": "241009",
+    "code_name": "tengu_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "泡泡剑",
+    "code_number": "251009",
+    "code_name": "whitedog_beast",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "克菈菈",
+    "code_number": "321011",
+    "code_name": "junior_yearngirl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水碳",
+    "code_number": "121007",
+    "code_name": "drawing_witch",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "七剑",
+    "code_number": "151007",
+    "code_name": "blade_dancer",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "yym",
+    "code_number": "221009",
+    "code_name": "onmyo_attendant",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "暗铳",
+    "code_number": "261007",
+    "code_name": "blindness_gunner",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷老头头",
+    "code_number": "331013",
+    "code_name": "old_mercenary",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "警察",
+    "code_number": "131011",
+    "code_name": "machine_police_girl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "爱哭鬼",
+    "code_number": "211009",
+    "code_name": "crybaby_shooter",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水粉毛",
+    "code_number": "221010",
+    "code_name": "psycho_reaper",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "黑皮奶",
+    "code_number": "311012",
+    "code_name": "tradition_healer",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "牡丹",
+    "code_number": "131012",
+    "code_name": "big_gunner",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "礼黑",
+    "code_number": "151009",
+    "code_name": "ruin_girl_halfanv",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "D天",
+    "code_number": "161006",
+    "code_name": "olivia",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "船员",
+    "code_number": "211010",
+    "code_name": "pirates_gunner",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "露娜",
+    "code_number": "261008",
+    "code_name": "luna",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水萨满",
+    "code_number": "321012",
+    "code_name": "little_shaman",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "妈",
+    "code_number": "141007",
+    "code_name": "kokkoro",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "吃货",
+    "code_number": "151011",
+    "code_name": "pecorine",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "黑猫",
+    "code_number": "161007",
+    "code_name": "kyaru",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "武术家",
+    "code_number": "211011",
+    "code_name": "sanctuary_guard",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "虎鼠",
+    "code_number": "311013",
+    "code_name": "brave_mouse",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风技工",
+    "code_number": "341011",
+    "code_name": "lazy_genious",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风龙",
+    "code_number": "141008",
+    "code_name": "wind_dragon",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "罗莎莉亚",
+    "code_number": "231013",
+    "code_name": "hidden_blader",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "铃铛妹",
+    "code_number": "251011",
+    "code_name": "keylock_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水斥候",
+    "code_number": "321013",
+    "code_name": "scout_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "奏者",
+    "code_number": "151012",
+    "code_name": "neoviolin_musician",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "重力妹",
+    "code_number": "331014",
+    "code_name": "floating_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火魔剑",
+    "code_number": "211012",
+    "code_name": "magic_sword_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "格里格",
+    "code_number": "261010",
+    "code_name": "dinosaur_hunter",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "蛾娘",
+    "code_number": "351009",
+    "code_name": "moth_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "圣女",
+    "code_number": "151013",
+    "code_name": "high_priestess",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "灯奶",
+    "code_number": "151014",
+    "code_name": "lamp_guide",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "仓丸",
+    "code_number": "211013",
+    "code_name": "vigilante_boy",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "暗炼金",
+    "code_number": "261011",
+    "code_name": "crazy_doctor",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "普触",
+    "code_number": "161021",
+    "code_name": "dark_psygirl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火老师",
+    "code_number": "211020",
+    "code_name": "sorceress_teacher",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "狼奶",
+    "code_number": "241015",
+    "code_name": "wild_boy",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "烟奶",
+    "code_number": "261023",
+    "code_name": "illegal_herbalist",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "xcw",
+    "code_number": "141015",
+    "code_name": "elf_princess",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "魔王",
+    "code_number": "161027",
+    "code_name": "devil_leader",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "皇女",
+    "code_number": "251017",
+    "code_name": "resistance_princess",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "vv",
+    "code_number": "221017",
+    "code_name": "shy_assassin",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光机奶",
+    "code_number": "251023",
+    "code_name": "doctor_machine",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火裁缝",
+    "code_number": "311019",
+    "code_name": "sewing_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "冰魔眼",
+    "code_number": "121015",
+    "code_name": "freeze_eye",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "米卫兵",
+    "code_number": "351021",
+    "code_name": "junior_soldier",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷老师",
+    "code_number": "231038",
+    "code_name": "little_wizard",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "王女",
+    "code_number": "111027",
+    "code_name": "halberd_princess",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "无音",
+    "code_number": "141033",
+    "code_name": "combat_animal",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风拳",
+    "code_number": "241027",
+    "code_name": "wind_striker",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "太妹",
+    "code_number": "251035",
+    "code_name": "sea_violent",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "船医",
+    "code_number": "111033",
+    "code_name": "doctor_pirate",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "大老爹",
+    "code_number": "131032",
+    "code_name": "girl_and_mecha",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "鱼叉",
+    "code_number": "231044",
+    "code_name": "punk_warrior",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "假面",
+    "code_number": "261035",
+    "code_name": "mystery_agent",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "龙拳",
+    "code_number": "121033",
+    "code_name": "waterdragon_kunfu",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "白猫",
+    "code_number": "161039",
+    "code_name": "summoner_little",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "网球妹",
+    "code_number": "241033",
+    "code_name": "steel_lacrosse",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光滑板",
+    "code_number": "351027",
+    "code_name": "skateboard_boy",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "结晶哥",
+    "code_number": "151033",
+    "code_name": "crystal_swordman",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "深海奶",
+    "code_number": "161045",
+    "code_name": "noble_sorceress",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "避雷针",
+    "code_number": "231050",
+    "code_name": "electro_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "猛将",
+    "code_number": "121039",
+    "code_name": "desert_commander",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小矮人",
+    "code_number": "351033",
+    "code_name": "kids_gunner",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火尼",
+    "code_number": "111045",
+    "code_name": "magical_bayonetter",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "电锯",
+    "code_number": "131038",
+    "code_name": "general_toyakiren",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "msr",
+    "code_number": "141045",
+    "code_name": "beast_shaman",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "金木",
+    "code_number": "261041",
+    "code_name": "walking_armor",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "绷带",
+    "code_number": "361021",
+    "code_name": "mummy_boy",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "泽塔",
+    "code_number": "111051",
+    "code_name": "zeta",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "贝熊",
+    "code_number": "161057",
+    "code_name": "beatrix",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "吉赛尔",
+    "code_number": "231056",
+    "code_name": "secret_observer",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "暗拳",
+    "code_number": "261047",
+    "code_name": "desert_caravans",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "斩铁",
+    "code_number": "131044",
+    "code_name": "samurai_robot",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "蝴蝶剑",
+    "code_number": "151039",
+    "code_name": "yokai_exterminator",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小魔女",
+    "code_number": "241039",
+    "code_name": "cool_witch_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "顿足奶",
+    "code_number": "251047",
+    "code_name": "sleep_puppy",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火舞姬",
+    "code_number": "211032",
+    "code_name": "naginata_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "蓝兔",
+    "code_number": "361027",
+    "code_name": "revenge_rabbit",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "yly",
+    "code_number": "111057",
+    "code_name": "tsundere_bountyhunter",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "脏辫",
+    "code_number": "131050",
+    "code_name": "elder_guild_fighter",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "花颂",
+    "code_number": "221028",
+    "code_name": "stylish_witch",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "埃及奶",
+    "code_number": "251053",
+    "code_name": "desert_priest",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水大奶",
+    "code_number": "121051",
+    "code_name": "holy_mother",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小蛾子",
+    "code_number": "341017",
+    "code_name": "rookie_adventurer",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "暗百合",
+    "code_number": "161069",
+    "code_name": "blackflower_wiz",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水狙",
+    "code_number": "221034",
+    "code_name": "dress_gunner",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "鹰目",
+    "code_number": "241045",
+    "code_name": "bird_master",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "大天狗",
+    "code_number": "141057",
+    "code_name": "tengu_master",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小侦探",
+    "code_number": "361033",
+    "code_name": "assistant_boy",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "暗侦探",
+    "code_number": "261059",
+    "code_name": "formercorrupt_detective",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "诺诺亚",
+    "code_number": "331020",
+    "code_name": "conjurer_girl",
+    "rarity": 3,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "棒球妹",
+    "code_number": "131062",
+    "code_name": "cyber_battergirl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "心角",
+    "code_number": "131068",
+    "code_name": "horn_leader",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光大叔",
+    "code_number": "151069",
+    "code_name": "guildknight_leader",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "福女",
+    "code_number": "231063",
+    "code_name": "warashi",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "初音",
+    "code_number": "241051",
+    "code_name": "pilgrim_monk",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小雪",
+    "code_number": "121070",
+    "code_name": "psychic_yuki",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "翔太",
+    "code_number": "161082",
+    "code_name": "psychic_shouta",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "绯河",
+    "code_number": "211044",
+    "code_name": "psychic_tomboygirl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "老师",
+    "code_number": "221054",
+    "code_name": "psychic_seiji",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小红帽",
+    "code_number": "111081",
+    "code_name": "shadow_redhood",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "舰长",
+    "code_number": "121075",
+    "code_name": "navy_officer",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "千岳",
+    "code_number": "131080",
+    "code_name": "psychic_tohru",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "影丘",
+    "code_number": "261065",
+    "code_name": "psychic_projection",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "炸弹人",
+    "code_number": "111093",
+    "code_name": "misogi",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "镜华",
+    "code_number": "121099",
+    "code_name": "kyouka",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "美美",
+    "code_number": "141087",
+    "code_name": "mimi",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "扳手",
+    "code_number": "231075",
+    "code_name": "spanner_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "冰龙",
+    "code_number": "121105",
+    "code_name": "ice_dragon",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "黑机郎",
+    "code_number": "131092",
+    "code_name": "super_robot",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "风指挥",
+    "code_number": "141093",
+    "code_name": "marching_conductor",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光警卫",
+    "code_number": "251065",
+    "code_name": "advanced_soldier",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "光兔",
+    "code_number": "151093",
+    "code_name": "still_obstinator",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小黑客",
+    "code_number": "251071",
+    "code_name": "pbc_operator",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "凶狼",
+    "code_number": "111105",
+    "code_name": "anger_investigator",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "遗品屋",
+    "code_number": "161105",
+    "code_name": "estateguild_leader",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷剪刀",
+    "code_number": "231081",
+    "code_name": "scissor_ratgirl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "克总",
+    "code_number": "151099",
+    "code_name": "airship_captain",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "镜魔女",
+    "code_number": "161111",
+    "code_name": "mirror_witch",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "罗曼",
+    "code_number": "231087",
+    "code_name": "long_hair_swordsman",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "月蜘蛛",
+    "code_number": "131098",
+    "code_name": "spider_ninja",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "铠甲妹",
+    "code_number": "141105",
+    "code_name": "waste_armor",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "海兔子",
+    "code_number": "221060",
+    "code_name": "innocent_glaiver",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "校服王女",
+    "code_number": "111111",
+    "code_name": "halberd_princess_2halfanv",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "铃鹿",
+    "code_number": "141111",
+    "code_name": "silence_suzuka",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小特",
+    "code_number": "151105",
+    "code_name": "special_week",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "绿舌头",
+    "code_number": "131110",
+    "code_name": "nihilist_mechgirl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "水贼",
+    "code_number": "221072",
+    "code_name": "sand_bandit",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "病娇",
+    "code_number": "161129",
+    "code_name": "psychic_yamikawa",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "小翔太",
+    "code_number": "241063",
+    "code_name": "ekaki_girl_playable",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "吸血鬼",
+    "code_number": "131116",
+    "code_name": "little_vampire",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "圣剑",
+    "code_number": "151123",
+    "code_name": "holysword_girl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "雷小号",
+    "code_number": "231093",
+    "code_name": "marching_rival",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火部长",
+    "code_number": "111135",
+    "code_name": "golemclub_captain",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "海贼",
+    "code_number": "121135",
+    "code_name": "pirates_of_fear",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "镜子精",
+    "code_number": "141123",
+    "code_name": "ghost_nymph",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "鸟巫女",
+    "code_number": "141135",
+    "code_name": "asymmetry_birdgirl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "牛奶",
+    "code_number": "161147",
+    "code_name": "horn_mypace",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "胡兰",
+    "code_number": "241069",
+    "code_name": "kung_fu_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "解放者",
+    "code_number": "131134",
+    "code_name": "octcyborg_lady",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "混沌师",
+    "code_number": "161165",
+    "code_name": "evilloli_master",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "僵尸妹",
+    "code_number": "211062",
+    "code_name": "jiangshi_girl",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "炎拳",
+    "code_number": "111153",
+    "code_name": "flame_blessgirl",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "冯巩",
+    "code_number": "141153",
+    "code_name": "psychic_gal",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "神官",
+    "code_number": "161171",
+    "code_name": "impostor_priest",
+    "rarity": 5,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "电钻",
+    "code_number": "231099",
+    "code_name": "hero_mechanic",
+    "rarity": 4,
+    "source": "常驻卡池"
+  },
+  {
+    "name": "火女仆",
+    "code_number": "111004",
+    "code_name": "battle_maid_xm19",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "雷宗",
+    "code_number": "131003",
+    "code_name": "samurai_xm19",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "光狐狸",
+    "code_number": "151004",
+    "code_name": "fox_oracle_xm19",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "雷企鹅",
+    "code_number": "231007",
+    "code_name": "docking_beast_xm19",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "火鼠",
+    "code_number": "111005",
+    "code_name": "heavenly_one",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "水弹",
+    "code_number": "121003",
+    "code_name": "lightbullet_wiz_ny20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "火记者",
+    "code_number": "211007",
+    "code_name": "reporter_ny20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "风兔子",
+    "code_number": "241006",
+    "code_name": "bearish_darkwitch_ny20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "做饭哥",
+    "code_number": "261006",
+    "code_name": "swallow_knight_ny20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳虎",
+    "code_number": "111009",
+    "code_name": "tiger_treasure_hunter_smr20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "永琪",
+    "code_number": "131013",
+    "code_name": "illusionist_smr20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳胜负",
+    "code_number": "231012",
+    "code_name": "casino_dealer_smr20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "光水奶",
+    "code_number": "251010",
+    "code_name": "bishop_girl_smr20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "雷魔女",
+    "code_number": "131014",
+    "code_name": "dimension_witch_smr20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳爱",
+    "code_number": "161008",
+    "code_name": "alice_smr20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳骑",
+    "code_number": "221011",
+    "code_name": "unicorn_lancer_smr20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "暗蔷薇",
+    "code_number": "261009",
+    "code_name": "lady_gunner_smr20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳船",
+    "code_number": "223001",
+    "code_name": "pirates_girl_smr20",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "水王子",
+    "code_number": "121008",
+    "code_name": "prince_zero_smr20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "源樱",
+    "code_number": "121009",
+    "code_name": "minamoto_sakura",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "二阶堂",
+    "code_number": "141009",
+    "code_name": "nikaido_saki",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "夕雾",
+    "code_number": "211014",
+    "code_name": "yugiri",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "山田",
+    "code_number": "263003",
+    "code_name": "yamada_tae",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "莉莉",
+    "code_number": "151015",
+    "code_name": "hoshikawa_ririi",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "纯子",
+    "code_number": "161009",
+    "code_name": "konno_junko",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "水野爱",
+    "code_number": "231014",
+    "code_name": "mizuno_ai",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "暗歌姬",
+    "code_number": "161015",
+    "code_name": "sing_android_hw20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "万化",
+    "code_number": "231020",
+    "code_name": "fox_scientist_hw20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "万镰",
+    "code_number": "261017",
+    "code_name": "reaper_girl_hw20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "万圣光奶",
+    "code_number": "351015",
+    "code_name": "priest_hw20",
+    "rarity": 3,
+    "source": "限定卡池"
+  },
+  {
+    "name": "里脊",
+    "code_number": "131020",
+    "code_name": "rec_android_1anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星忍",
+    "code_number": "111015",
+    "code_name": "kunoichi_1anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星七",
+    "code_number": "141021",
+    "code_name": "wind_spgirl_1anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星奶",
+    "code_number": "151021",
+    "code_name": "wind_oracle_1anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星女骑",
+    "code_number": "251029",
+    "code_name": "woman_knight_1anv",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "白鳄梨",
+    "code_number": "261029",
+    "code_name": "devil_woman_soldier_1anv",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣龙",
+    "code_number": "111021",
+    "code_name": "lady_summoner_xm20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣阿",
+    "code_number": "161033",
+    "code_name": "devil_princess_xm20",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣红剑",
+    "code_number": "211026",
+    "code_name": "cool_woman_soldier_xm20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣雷策",
+    "code_number": "231032",
+    "code_name": "black_hair_swordman_xm20",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣腐女",
+    "code_number": "361015",
+    "code_name": "delusion_girl_xm20",
+    "rarity": 3,
+    "source": "限定卡池"
+  },
+  {
+    "name": "蛋白",
+    "code_number": "243013",
+    "code_name": "white_tiger_xm20",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "牛牛",
+    "code_number": "131026",
+    "code_name": "heavenly_two",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "春忍",
+    "code_number": "141027",
+    "code_name": "timid_kunoichi_ny21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "春伞",
+    "code_number": "221022",
+    "code_name": "urban_soldier_ny21",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "氢弹",
+    "code_number": "151027",
+    "code_name": "lightbullet_wiz_vt21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情泡",
+    "code_number": "251041",
+    "code_name": "whitedog_beast_vt21",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情yyr",
+    "code_number": "111039",
+    "code_name": "onmyoji_boy_wt21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情狼",
+    "code_number": "311025",
+    "code_name": "wolf_assassin_wt21",
+    "rarity": 3,
+    "source": "限定卡池"
+  },
+  {
+    "name": "风舞娘",
+    "code_number": "141039",
+    "code_name": "brown_fighter_dst21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "零触",
+    "code_number": "161051",
+    "code_name": "dark_psygirl_dst21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "鲤鱼",
+    "code_number": "121045",
+    "code_name": "mermaid_1halfanv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "lcw",
+    "code_number": "141051",
+    "code_name": "elf_princess_1halfanv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "礼铳",
+    "code_number": "161063",
+    "code_name": "blindness_gunner_1halfanv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳警",
+    "code_number": "131056",
+    "code_name": "machine_police_girl_smr21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳皇女",
+    "code_number": "151045",
+    "code_name": "resistance_princess_smr21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳龙骑",
+    "code_number": "211038",
+    "code_name": "dragon_slayer_smr21",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "火02",
+    "code_number": "111063",
+    "code_name": "bodysuit_trooper_smr21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "咏鹅",
+    "code_number": "141063",
+    "code_name": "bigwing_shaman_smr21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳狐",
+    "code_number": "151051",
+    "code_name": "fox_oracle_smr21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳水壶",
+    "code_number": "221040",
+    "code_name": "fox_companion_smr21",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "浴gay",
+    "code_number": "141069",
+    "code_name": "mercenary_smr21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "浴黑",
+    "code_number": "151063",
+    "code_name": "ruin_girl_smr21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "狗拳",
+    "code_number": "121069",
+    "code_name": "waterdragon_kunfu_proud",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "雷狗",
+    "code_number": "131074",
+    "code_name": "dog_slasher_proud",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "万奏",
+    "code_number": "151075",
+    "code_name": "neoviolin_musician_hw21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣母",
+    "code_number": "161081",
+    "code_name": "touyakiren_ceo_hw21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "万圣水兵",
+    "code_number": "221053",
+    "code_name": "spry_sailor_hw21",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "万圣武术",
+    "code_number": "241057",
+    "code_name": "sanctuary_guard_hw21",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星船",
+    "code_number": "111087",
+    "code_name": "pirates_girl_2anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "礼猫",
+    "code_number": "161087",
+    "code_name": "summoner_little_2anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星情",
+    "code_number": "261071",
+    "code_name": "informant_2anv",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "女主",
+    "code_number": "253013",
+    "code_name": "stella_2anv",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "星冰乐",
+    "code_number": "121081",
+    "code_name": "ice_witch_2anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "李白",
+    "code_number": "131086",
+    "code_name": "white_tiger_2anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "猫奶",
+    "code_number": "211050",
+    "code_name": "nurse_pirate",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣魔眼",
+    "code_number": "121087",
+    "code_name": "freeze_eye_xm21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣兔",
+    "code_number": "141081",
+    "code_name": "combat_animal_xm21",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣小丑",
+    "code_number": "251059",
+    "code_name": "devil_clown_xm21",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "水虎",
+    "code_number": "121093",
+    "code_name": "heavenly_three",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "春圣",
+    "code_number": "151081",
+    "code_name": "high_priestess_ny22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "春魔女",
+    "code_number": "161093",
+    "code_name": "dimension_witch_ny22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "春火剑",
+    "code_number": "211056",
+    "code_name": "shapely_soldier_ny22",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "春黑",
+    "code_number": "231069",
+    "code_name": "outlaw_panther_ny22",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情yly",
+    "code_number": "111099",
+    "code_name": "tsundere_bountyhunter_vt22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情奈",
+    "code_number": "151087",
+    "code_name": "hero_girl_vt22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情龙",
+    "code_number": "141099",
+    "code_name": "wind_dragon_wt22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情丛",
+    "code_number": "161099",
+    "code_name": "katana_ghost_wt22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "正义姐",
+    "code_number": "121111",
+    "code_name": "justice_lady",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "水歌姬",
+    "code_number": "121117",
+    "code_name": "sing_android_2halfanv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "礼昂",
+    "code_number": "161117",
+    "code_name": "warlock_2halfanv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳厨",
+    "code_number": "111123",
+    "code_name": "monster_cook_smr22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳翔太",
+    "code_number": "141117",
+    "code_name": "psychic_shouta_smr22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "水猫奶",
+    "code_number": "221066",
+    "code_name": "nurse_pirate_smr22",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳双剑",
+    "code_number": "251077",
+    "code_name": "twin_blader_smr22",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "雷炮",
+    "code_number": "131104",
+    "code_name": "combat_soldier_smr22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳斩铁",
+    "code_number": "151117",
+    "code_name": "samurai_robot_smr22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "泳百合",
+    "code_number": "161123",
+    "code_name": "blackflower_wiz_smr22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "卢卡",
+    "code_number": "121129",
+    "code_name": "luca_playable",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "老狮子",
+    "code_number": "111129",
+    "code_name": "lion_swordman_playable",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "雷莓",
+    "code_number": "131122",
+    "code_name": "palpebra_knight_lady_hw22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "万七",
+    "code_number": "161135",
+    "code_name": "wind_spgirl_hw22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "万绯",
+    "code_number": "261077",
+    "code_name": "psychic_tomboygirl_hw22",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "七哥",
+    "code_number": "121141",
+    "code_name": "wind_spbro_3anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星燕",
+    "code_number": "151129",
+    "code_name": "swallow_knight_3anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "院长",
+    "code_number": "161159",
+    "code_name": "rector_sorcerer_playable",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星gay",
+    "code_number": "161153",
+    "code_name": "veteran_hunter_3anv",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣虎",
+    "code_number": "111141",
+    "code_name": "tiger_treasure_hunter_xm22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣魁",
+    "code_number": "151141",
+    "code_name": "compliment_oiran_xm22",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "圣药",
+    "code_number": "261083",
+    "code_name": "herbalist_xm22",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "春雪",
+    "code_number": "121147",
+    "code_name": "psychic_yuki_ny23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "春锯",
+    "code_number": "131128",
+    "code_name": "general_toyakiren_ny23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "年兔",
+    "code_number": "141141",
+    "code_name": "heavenly_four",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "火兔",
+    "code_number": "111147",
+    "code_name": "still_obstinator_ballot23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "星史",
+    "code_number": "151147",
+    "code_name": "stella_ballot23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "莱特",
+    "code_number": "151153",
+    "code_name": "light_ballot23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情触",
+    "code_number": "131140",
+    "code_name": "dark_psygirl_vt23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情牛",
+    "code_number": "141147",
+    "code_name": "heavenly_two_vt23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情眠",
+    "code_number": "221078",
+    "code_name": "sleep_puppy_vt23",
+    "rarity": 4,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情剑",
+    "code_number": "131146",
+    "code_name": "blade_dancer_wt23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "情火狼",
+    "code_number": "141159",
+    "code_name": "black_wolf_knight_wt23",
+    "rarity": 5,
+    "source": "限定卡池"
+  },
+  {
+    "name": "不死王",
+    "code_number": "341003",
+    "code_name": "lich",
+    "rarity": 3,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "魔像",
+    "code_number": "412004",
+    "code_name": "guardian_golem",
+    "rarity": 2,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "猫头鹰",
+    "code_number": "442004",
+    "code_name": "owl",
+    "rarity": 2,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "镰鼬",
+    "code_number": "442006",
+    "code_name": "fox",
+    "rarity": 2,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "蘑菇",
+    "code_number": "512001",
+    "code_name": "kinoko",
+    "rarity": 1,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "火噗噜",
+    "code_number": "512002",
+    "code_name": "slango_red",
+    "rarity": 1,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "火精",
+    "code_number": "512004",
+    "code_name": "spirit_fire",
+    "rarity": 1,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "水噗噜",
+    "code_number": "522001",
+    "code_name": "slango_blue",
+    "rarity": 1,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "雷噗噜",
+    "code_number": "532001",
+    "code_name": "slango_yellow",
+    "rarity": 1,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "电老鼠",
+    "code_number": "532004",
+    "code_name": "paralysis_hedgehog",
+    "rarity": 1,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "风噗噜",
+    "code_number": "542001",
+    "code_name": "slango_green",
+    "rarity": 1,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "圣诞树精",
+    "code_number": "323001",
+    "code_name": "dryad_xm19",
+    "rarity": 3,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "雷猫猫",
+    "code_number": "333001",
+    "code_name": "cat_fighter_ny20",
+    "rarity": 3,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "金头",
+    "code_number": "443001",
+    "code_name": "towa_namakubi",
+    "rarity": 2,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "vtb",
+    "code_number": "443002",
+    "code_name": "towa_vtuber",
+    "rarity": 2,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "厨子",
+    "code_number": "253001",
+    "code_name": "monster_cook",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "公主",
+    "code_number": "233001",
+    "code_name": "fake_princess",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "画伯",
+    "code_number": "243007",
+    "code_name": "ekaki_onmyoji",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "八云",
+    "code_number": "163001",
+    "code_name": "silent_ninja",
+    "rarity": 5,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "厨男",
+    "code_number": "213001",
+    "code_name": "alk_1anv",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "姐姐",
+    "code_number": "223007",
+    "code_name": "ruin_lady",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "奈特",
+    "code_number": "223013",
+    "code_name": "hero_girl",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "绒绒",
+    "code_number": "253007",
+    "code_name": "psycho_reaper_smr21",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "小狮子",
+    "code_number": "233007",
+    "code_name": "lion_boy",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "妹妹",
+    "code_number": "213013",
+    "code_name": "psychic_nao",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "羊奶",
+    "code_number": "243019",
+    "code_name": "sheep_girl",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "会长",
+    "code_number": "223019",
+    "code_name": "student_president",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "黄金船",
+    "code_number": "113001",
+    "code_name": "gold_ship",
+    "rarity": 5,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "回声",
+    "code_number": "233013",
+    "code_name": "rural_ladyship",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "小王子",
+    "code_number": "253019",
+    "code_name": "reformist_prince",
+    "rarity": 4,
+    "source": "主线/副本/活动赠送"
+  },
+  {
+    "name": "EMT",
+    "code_number": "121021",
+    "code_name": "emilia",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "蕾姆",
+    "code_number": "121027",
+    "code_name": "rem",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "拉姆",
+    "code_number": "241021",
+    "code_name": "ram",
+    "rarity": 4,
+    "source": "联动"
+  },
+  {
+    "name": "486",
+    "code_number": "263009",
+    "code_name": "subaru",
+    "rarity": 4,
+    "source": "联动"
+  },
+  {
+    "name": "团长",
+    "code_number": "111069",
+    "code_name": "suzumiya_haruhi",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "长门",
+    "code_number": "121057",
+    "code_name": "nagato_yuki",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "1096",
+    "code_number": "151057",
+    "code_name": "asahina_mikuru",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "古泉",
+    "code_number": "261053",
+    "code_name": "koizumi_ituki",
+    "rarity": 4,
+    "source": "联动"
+  },
+  {
+    "name": "阿虚",
+    "code_number": "213007",
+    "code_name": "kyon",
+    "rarity": 4,
+    "source": "联动"
+  },
+  {
+    "name": "惠惠",
+    "code_number": "111117",
+    "code_name": "megumin",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "阿库娅",
+    "code_number": "121123",
+    "code_name": "aqua",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "达克尼斯",
+    "code_number": "151111",
+    "code_name": "darkness",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "和真",
+    "code_number": "263015",
+    "code_name": "kazuma",
+    "rarity": 4,
+    "source": "联动"
+  },
+  {
+    "name": "由诺",
+    "code_number": "141129",
+    "code_name": "yuno",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "阿斯塔",
+    "code_number": "161141",
+    "code_name": "asta",
+    "rarity": 5,
+    "source": "联动"
+  },
+  {
+    "name": "诺艾尔",
+    "code_number": "123001",
+    "code_name": "noelle_silva",
+    "rarity": 5,
+    "source": "联动"
+  }
+]

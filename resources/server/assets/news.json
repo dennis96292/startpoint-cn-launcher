@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "欢迎来到世界弹射物语",
+        "date": "2023-08-31 12:00:00",
+        "label": 1,
+        "thumbnail": 1,
+        "thumbnail_path": null,
+        "added_time": "2023-08-31 12:00:00",
+        "html": "<html lang=\"zh\"><body><h2>欢迎来到星见镇！</h2><p>感谢您游玩世界弹射物语。</p><p>通过扭蛋获取新角色，挑战单人任务！</p></body></html>"
+    },
+    {
+        "id": 2,
+        "title": "新手应援活动开启",
+        "date": "2023-08-31 12:00:00",
+        "label": 2,
+        "thumbnail": 1,
+        "thumbnail_path": null,
+        "added_time": "2023-08-31 12:00:00",
+        "html": "<html lang=\"zh\"><body><h2>新手应援活动</h2><p>新角色登场！PU角色出现率提升！</p><p>完成每日任务可获得丰厚奖励。</p></body></html>"
+    },
+    {
+        "id": 3,
+        "title": "多人领主战 火热进行中",
+        "date": "2023-09-01 00:00:00",
+        "label": 3,
+        "thumbnail": 2,
+        "thumbnail_path": null,
+        "added_time": "2023-09-01 00:00:00",
+        "html": "<html lang=\"zh\"><body><h2>多人领主战</h2><p>与其他玩家一起挑战强大的领主！</p><p>收集领主币兑换限定装备。</p></body></html>"
+    }
+]
