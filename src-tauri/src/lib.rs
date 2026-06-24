@@ -37,21 +37,12 @@ fn strip_verbatim(s: String) -> String {
     s.strip_prefix(r"\\?\").map(|x| x.to_string()).unwrap_or(s)
 }
 
-// Per-user data dir OUTSIDE the install dir (survives app reinstall/update):
-// holds the downloaded CDN + the save database, so updating the launcher never wipes them.
-fn data_dir(app: &AppHandle) -> PathBuf {
-    let d = app
-        .path()
-        .app_local_data_dir()
-        .unwrap_or_else(|_| PathBuf::from("."));
-    let _ = std::fs::create_dir_all(&d);
-    d
-}
+// The CDN lives under the server dir (`<serverRoot>/.cdn`), i.e. inside the install dir.
+// This is the server's own default location (`process.env.CDN_DIR || ".cdn"`), so the launcher
+// and server agree without any env override, and the NSIS uninstaller removes it in one sweep —
+// everything stays under one folder, no scatter, clean uninstall.
 fn cdn_dir(app: &AppHandle) -> PathBuf {
-    data_dir(app).join("cdn")
-}
-fn db_dir(app: &AppHandle) -> PathBuf {
-    data_dir(app).join("database")
+    PathBuf::from(read_launcher_config(app).server_path).join(".cdn")
 }
 
 // Bundled node.exe if present, else fall back to system "node".
@@ -333,18 +324,12 @@ fn start_server(app: AppHandle) -> Result<(), String> {
     set_status(&app, "starting");
     let _ = app.emit("server-log", format!("[launcher] 啟動 {}", entry.display()));
 
-    // Store CDN + DB in the stable per-user data dir (not the install dir) so updates don't wipe them.
-    let cdn = cdn_dir(&app);
-    let db = db_dir(&app);
-    let _ = std::fs::create_dir_all(&cdn);
-    let _ = std::fs::create_dir_all(&db);
-
     // Mirror the server's own start command: node --env-file=.env out/cn-server.js
+    // CDN + DB use the server's own defaults (<serverRoot>/.cdn, <serverRoot>/.database) — no env
+    // override — so everything lives under the install dir and uninstall removes it in one sweep.
     let mut cmd = Command::new(node_exe(&app));
     cmd.args(["--env-file=.env", "out/cn-server.js"])
         .current_dir(&server_path)
-        .env("CDN_DIR", &cdn)
-        .env("DB_DIR", &db)
         .stdout(Stdio::piped())
         .stderr(Stdio::piped());
     #[cfg(windows)]
@@ -530,8 +515,8 @@ fn cdn_status(app: AppHandle) -> CdnStatus {
     }
 }
 
-// Delete the downloaded CDN to reclaim disk (data lives outside the install dir, so the
-// uninstaller can't remove it — this gives users a manual way before/after uninstalling).
+// Delete the downloaded CDN to reclaim disk without uninstalling the whole app.
+// (Uninstall already removes it via the NSIS hook; this is just a manual "free space" button.)
 #[tauri::command]
 fn cdn_clear(app: AppHandle) -> Result<(), String> {
     let cdn = cdn_dir(&app);
