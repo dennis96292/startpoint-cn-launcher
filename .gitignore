@@ -1,0 +1,18 @@
+node_modules/
+dist/
+out/
+*.log
+launcher-config.json
+
+# Rust build output
+src-tauri/target/
+
+# Bundled runtime resources (node / vendored server / JDK / FFDec / build-tools) are
+# assembled at build time and NEVER committed — large binaries + third-party copyright.
+# Ignore the whole tree; the release/build script reassembles it.
+resources/
+
+# APK patch scratch / output
+apkwork/
+patched.apk
+wf-redirected.apk

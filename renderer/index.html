@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>StartPoint CN Launcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="tabs">
+    <button class="tab active" data-tab="control">控制</button>
+    <button class="tab" data-tab="settings">設定</button>
+    <button class="tab" data-tab="apk">打包 APK</button>
+    <button class="tab" data-tab="admin">管理面板</button>
+    <button class="tab" data-tab="logs">日誌</button>
+    <span class="brand">StartPoint <b>CN</b></span>
+    <button id="langToggle" class="lang" title="简体 / 繁體">简</button>
+  </nav>
+
+  <main>
+    <!-- 首啟精靈：偵測到資源不完整時蓋在最上層 -->
+    <section id="firstrun" class="overlay" style="display:none">
+      <div class="wizard">
+        <h2>首次設定</h2>
+        <p class="hint">偵測到尚未下載遊戲資源。需先下載約 <b>10GB</b> 的本地資源(一次性,之後全程本地)。</p>
+        <div class="wizrow">
+          <label class="inline">語言
+            <select id="wizLang">
+              <option value="t">繁體中文</option>
+              <option value="s">简体中文</option>
+            </select>
+          </label>
+          <label class="inline">下載來源
+            <select id="wizMirror">
+              <option value="">直連 GitHub</option>
+              <option value="https://gh-proxy.com/">鏡像 gh-proxy.com</option>
+              <option value="https://ghfast.top/">鏡像 ghfast.top</option>
+              <option value="https://ghp.ci/">鏡像 ghp.ci</option>
+              <option value="__custom">自訂…</option>
+            </select>
+          </label>
+        </div>
+        <input id="wizMirrorCustom" type="text" placeholder="https://你的鏡像/(結尾要有 /)" style="display:none; max-width:360px; margin:0 auto;" />
+        <div class="wizbtns">
+          <button id="wizDownload" class="primary big">從網路下載</button>
+          <button id="wizImport" class="primary big alt">匯入本地資源檔</button>
+        </div>
+        <p class="hint">被牆、無法連 GitHub 獲取 CDN 時,請用「匯入本地資源檔」選擇提供的 <code>cn-cdn.tar.part.00 ~ cn-cdn.tar.part.05</code>(可一次多選)。</p>
+        <div id="wizProgWrap" class="progwrap" style="display:none">
+          <div class="progbar"><div id="wizProgBar" class="progfill"></div></div>
+          <div id="wizProgText" class="progtext"></div>
+        </div>
+        <button id="wizSkip" class="link">略過(我已有資源 / 稍後再說)</button>
+      </div>
+    </section>
+
+    <!-- 控制 -->
+    <section class="panel active" id="control">
+      <div class="control-stage" id="controlStage">
+        <div class="hero" id="hero">
+          <button id="toggle" class="power" data-state="stopped">啟動</button>
+          <div class="status">
+            <span id="statusDot" class="dot stopped"></span>
+            <span id="statusText">已停止</span>
+          </div>
+          <div id="url" class="url"></div>
+        </div>
+        <div class="livelog" id="livelog">
+          <div class="livelog-bar"><span>伺服器日誌</span><button id="clearLog" class="mini">清空</button></div>
+          <pre id="logOut"></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- 設定 -->
+    <section class="panel" id="settings">
+      <h2>設定</h2>
+      <label>伺服器目錄
+        <div class="row">
+          <input id="serverPath" type="text" />
+          <button id="pickDir" class="mini">瀏覽</button>
+        </div>
+      </label>
+      <label>主機 IP
+        <div class="row">
+          <input id="host" type="text" placeholder="192.168.x.x" />
+          <button id="detectIp" class="mini">偵測本機 IP</button>
+        </div>
+      </label>
+      <label>連接埠 <input id="port" type="text" placeholder="8001" /></label>
+      <label>資源版本 <input id="resVersion" type="text" placeholder="1.4.54" /></label>
+      <button id="save" class="primary">儲存</button>
+      <span id="saveMsg" class="savemsg"></span>
+      <p class="hint" style="margin-top:22px">遊戲資源與存檔存放於使用者資料夾,更新 launcher 不會清除。解除安裝不會自動刪除已下載的 ~10GB 資源,可在此手動清除。</p>
+      <button id="cdnClear" class="mini">清除已下載資源(釋放空間)</button>
+    </section>
+
+    <!-- 打包 APK -->
+    <section class="panel" id="apk">
+      <h2>打包重定向 APK</h2>
+      <div class="apk-target">重導目標:<b id="apkTarget">—</b></div>
+      <label>原始 APK
+        <div class="row">
+          <input id="apkPath" type="text" placeholder="選擇 World Flipper 的 APK" />
+          <button id="apkPick" class="mini">瀏覽</button>
+        </div>
+      </label>
+      <div class="row">
+        <button id="apkPatch" class="primary">開始打包</button>
+        <span id="apkMsg" class="savemsg"></span>
+      </div>
+      <div id="apkProgWrap" class="progwrap" style="display:none">
+        <div class="progbar"><div id="apkProgBar" class="progfill"></div></div>
+        <div id="apkProgText" class="progtext"></div>
+      </div>
+      <div id="apkOut" class="hint"></div>
+    </section>
+
+    <!-- 管理面板 -->
+    <section class="panel" id="admin">
+      <div id="adminBlocked" class="blocked"><span class="bigword">未啟動</span></div>
+      <div id="adminBody" class="admin-body">
+        <nav class="subtabs">
+          <button class="subtab active" data-sub="players">玩家</button>
+          <button class="subtab" data-sub="accounts">帳號 / 存檔</button>
+          <button class="subtab" data-sub="time">伺服器時間</button>
+          <button class="subtab" data-sub="mailtab">群發郵件</button>
+        </nav>
+
+        <div class="subpanel active" id="sub-players">
+          <aside class="master">
+            <div class="master-bar">
+              <button id="plReload" class="mini">刷新</button>
+              <span class="spacer"></span>
+              <button id="plPrev" class="mini" title="上一頁">‹</button>
+              <span id="plPage" class="page">1</span>
+              <button id="plNext" class="mini" title="下一頁">›</button>
+            </div>
+            <div class="newsave-bar">
+              <button id="newSaveTemplate" class="mini">新建(範本)</button>
+              <button id="newSaveBlank" class="mini">新建(空白)</button>
+              <button id="importSave" class="mini">匯入存檔</button>
+            </div>
+            <ul id="playerList" class="plist"></ul>
+          </aside>
+          <div class="detail" id="playerDetail">
+            <div class="detail-empty"></div>
+          </div>
+        </div>
+
+        <!-- 帳號 / 存檔管理 -->
+        <div class="subpanel" id="sub-accounts">
+          <div class="acct-page">
+            <div class="acct-bar"><button id="acctReload" class="mini">刷新</button></div>
+            <div id="acctList"></div>
+          </div>
+        </div>
+
+        <div class="subpanel" id="sub-time">
+          <div class="card">
+            <h3>伺服器時間</h3>
+            <p class="kv">目前:<b id="timeNow">—</b> <span id="timeCustom" class="badge"></span></p>
+            <label>設定時間 (ISO,如 2024-12-15T00:00:00)
+              <div class="row">
+                <input id="timeInput" type="text" placeholder="2024-12-15T00:00:00" />
+                <button id="timeSet" class="primary">設定</button>
+                <button id="timeReset" class="mini">重置為系統時間</button>
+              </div>
+            </label>
+            <p class="hint">伺服器時間倒退會讓「隨時間累積」的值(如經驗池)歸零。</p>
+          </div>
+        </div>
+
+        <div class="subpanel" id="sub-mailtab">
+          <div class="card">
+            <h3>群發郵件(發送給所有存檔)</h3>
+            <label>附件類型
+              <select id="mailType">
+                <option value="1">道具 (Item)</option>
+                <option value="3">付費星導石 (Paid Vmoney)</option>
+                <option value="4">免費星導石 (Free Vmoney)</option>
+                <option value="5">角色 (Character)</option>
+                <option value="6">裝備 (Equipment)</option>
+                <option value="7">星之碎片 (Star Crumb)</option>
+                <option value="8">法力 (Mana)</option>
+                <option value="9">經驗池 (Exp Pool)</option>
+                <option value="10">羈絆之證 (Bond Token)</option>
+                <option value="11">Boss Boost 點</option>
+                <option value="12">Boost 點</option>
+                <option value="15">Rank 點</option>
+              </select>
+            </label>
+            <div class="grid2">
+              <label id="mailTypeIdRow">附件 ID <input id="mailTypeId" type="text" placeholder="道具ID / 角色code / 裝備ID" /></label>
+              <label>數量 <input id="mailNumber" type="text" value="1" /></label>
+            </div>
+            <p class="hint">只有「道具 / 角色 / 裝備」需要填附件 ID;其他資源類型直接填數量即可。角色 / 裝備每封數量固定 1。</p>
+            <label>標題(選填,≤64) <input id="mailSubject" type="text" /></label>
+            <label>正文(選填,≤512) <input id="mailDesc" type="text" /></label>
+            <button id="mailSend" class="primary">發送</button>
+            <span id="mailMsg" class="savemsg"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 日誌(全部:伺服器 + 設定 / 打包 / 管理面板) -->
+    <section class="panel" id="logs">
+      <div class="logbar"><span>全部日誌</span><button id="clearAllLog" class="mini">清空</button></div>
+      <pre id="allLogOut"></pre>
+    </section>
+  </main>
+
+  <!-- 未下載 CDN 卻按啟動時的提示 -->
+  <div id="cdnGate" class="modal" style="display:none">
+    <div class="modal-box">
+      <h3>尚未下載遊戲資源</h3>
+      <p class="hint">未下載資源(CDN)時,遊戲將無法載入(伺服器仍可啟動,僅供管理面板使用)。建議先下載或匯入資源。</p>
+      <div class="row">
+        <button id="cdnGateDownload" class="primary">前往下載 / 匯入</button>
+        <button id="cdnGateStart" class="mini">仍要啟動</button>
+        <button id="cdnGateCancel" class="mini">取消</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 埠號被佔用時的小視窗 -->
+  <div id="portModal" class="modal" style="display:none">
+    <div class="modal-box">
+      <h3>連接埠已被佔用</h3>
+      <p id="portModalMsg" class="hint"></p>
+      <label>請輸入新的連接埠 <input id="portModalInput" type="text" /></label>
+      <div class="row">
+        <button id="portModalOk" class="primary">套用並啟動</button>
+        <button id="portModalCancel" class="mini">取消</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
