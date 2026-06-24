@@ -61,7 +61,8 @@ if (-not $SkipServer) {
   Pop-Location
 
   Step 3 "Re-vendor server runtime (preserve node20 node_modules)"
-  foreach ($d in @("out","assets","data","web")) {
+  # docs\generated holds character_table.json etc. that compiled routes require at runtime.
+  foreach ($d in @("out","assets","data","web","docs\generated")) {
     robocopy "$ServerSrc\$d" "$VendorDst\$d" /MIR /NFL /NDL /NJH /NJS /NP | Out-Null
     if ($LASTEXITCODE -ge 8) { throw "robocopy $d failed ($LASTEXITCODE)" }
   }
