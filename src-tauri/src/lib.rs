@@ -503,16 +503,20 @@ struct CdnStatus {
 #[tauri::command]
 fn cdn_status(app: AppHandle) -> CdnStatus {
     let cn = cdn_dir(&app).join("cn");
-    // Present if the manifest file `path` exists, or the dir has any content.
-    let present = cn.join("path").exists()
-        || (cn.is_dir()
-            && std::fs::read_dir(&cn)
-                .map(|mut d| d.next().is_some())
-                .unwrap_or(false));
+    // "Present" means a COMPLETE download/import, proven by the `.complete` marker that the
+    // download/import writes ONLY after the whole tar extracts successfully. A folder that merely
+    // has some files (e.g. extraction was interrupted, or only part of the split tar was imported)
+    // is NOT complete — so we never trust "the dir has content", only the marker.
+    let present = cdn_complete_marker(&cdn_dir(&app)).exists();
     CdnStatus {
         present,
         cn_dir: cn.to_string_lossy().to_string(),
     }
+}
+
+// The completion marker — present iff a download/import fully finished.
+fn cdn_complete_marker(cdn_root: &Path) -> PathBuf {
+    cdn_root.join(".complete")
 }
 
 // Delete the downloaded CDN to reclaim disk without uninstalling the whole app.
@@ -726,6 +730,11 @@ fn run_cdn_download(app: &AppHandle, repo: &str, tag: &str, cdn_root: &str, mirr
     let dl_dir = PathBuf::from(cdn_root).join("_dl");
     std::fs::create_dir_all(&dl_dir).map_err(|e| e.to_string())?;
 
+    // Mark the CDN incomplete until the whole extraction finishes — so if this run is interrupted
+    // (app closed mid-download/extract), the leftover files are correctly treated as incomplete.
+    let marker = cdn_complete_marker(Path::new(cdn_root));
+    let _ = std::fs::remove_file(&marker);
+
     let total: u64 = manifest.parts.iter().map(|p| p.size).sum();
     let mut done: u64 = 0; // bytes from fully-completed parts
 
@@ -787,8 +796,10 @@ fn run_cdn_download(app: &AppHandle, repo: &str, tag: &str, cdn_root: &str, mirr
     }
     emit_progress(app, "extract", count, count, "解壓完成");
 
+    // Everything unpacked → write the completion marker. Only now is the CDN considered present.
+    std::fs::write(&marker, format!("count={count}\n")).map_err(|e| e.to_string())?;
     let _ = std::fs::remove_dir_all(&dl_dir);
-    let _ = app.emit("server-log", format!("[cdn] 完成 ✓（{count} 個項目）"));
+    let _ = app.emit("server-log", format!("[cdn] 完成（{count} 個項目）"));
     let _ = app.emit("cdn-done", count);
     Ok(())
 }
@@ -991,6 +1002,8 @@ fn run_cdn_import(app: &AppHandle, archive_paths: Vec<String>, cdn_root: &str) -
     let _ = app.emit("server-log", format!("[cdn] 匯入本地資源（{} 個檔）", archive_paths.len()));
     let cdn_root = PathBuf::from(cdn_root);
     std::fs::create_dir_all(&cdn_root).map_err(|e| e.to_string())?;
+    let marker = cdn_complete_marker(&cdn_root);
+    let _ = std::fs::remove_file(&marker); // incomplete until extraction succeeds
 
     let parts: Vec<PathBuf> = if archive_paths.len() > 1 {
         // user multi-selected the parts → sort by name and concatenate
@@ -1039,6 +1052,7 @@ fn run_cdn_import(app: &AppHandle, archive_paths: Vec<String>, cdn_root: &str) -
         }
     }
     emit_progress(app, "extract", count, count, "完成");
+    std::fs::write(&marker, format!("count={count}\n")).map_err(|e| e.to_string())?;
     let _ = app.emit("server-log", format!("[cdn] 匯入完成（{count} 個項目）"));
     let _ = app.emit("cdn-done", count);
     Ok(())

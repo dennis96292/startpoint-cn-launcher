@@ -190,11 +190,6 @@ $('detectIp').addEventListener('click', async () => {
   $('host').value = ip;
   toast('已偵測:' + ip);
 });
-$('cdnClear').addEventListener('click', async () => {
-  if (!confirm(tr('確定刪除已下載的遊戲資源?(下次使用需重新下載或匯入)'))) return;
-  try { await invoke('cdn_clear'); toast('已清除下載資源'); }
-  catch (e) { toast(String(e), 'err'); }
-});
 $('save').addEventListener('click', async () => {
   cfg = await invoke('save_config', {
     ui: {
@@ -217,10 +212,11 @@ function showFirstRun(show) {
   document.body.classList.toggle('firstrun-active', show); // 暗掉並停用上方 tab
   updateCdnFab();
 }
-// 略過精靈後,只要資源仍未下載完成就顯示懸浮球;精靈開著 / 下載中 / 已完成則隱藏。
+// 只要資源尚未「完整」(cdnPresent 來自完成標記)且精靈未開啟,就顯示懸浮球。
+// 即使下載/解壓中被略過,球仍會出現(點它可開回精靈看進度);完整後才永久消失。
 function updateCdnFab() {
   const wizardOpen = $('firstrun').style.display !== 'none';
-  $('cdnFab').style.display = (!cdnPresent && !wizardOpen && !cdnDownloading) ? 'flex' : 'none';
+  $('cdnFab').style.display = (!cdnPresent && !wizardOpen) ? 'flex' : 'none';
 }
 async function checkFirstRun() {
   const st = await invoke('cdn_status');
