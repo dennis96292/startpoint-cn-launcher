@@ -210,16 +210,25 @@ $('save').addEventListener('click', async () => {
 
 // ====================== 首啟精靈 + CDN 下載 ======================
 let cdnDownloading = false;
+let cdnPresent = false;
 
 function showFirstRun(show) {
   $('firstrun').style.display = show ? 'flex' : 'none';
   document.body.classList.toggle('firstrun-active', show); // 暗掉並停用上方 tab
+  updateCdnFab();
+}
+// 略過精靈後,只要資源仍未下載完成就顯示懸浮球;精靈開著 / 下載中 / 已完成則隱藏。
+function updateCdnFab() {
+  const wizardOpen = $('firstrun').style.display !== 'none';
+  $('cdnFab').style.display = (!cdnPresent && !wizardOpen && !cdnDownloading) ? 'flex' : 'none';
 }
 async function checkFirstRun() {
   const st = await invoke('cdn_status');
+  cdnPresent = st.present;
   showFirstRun(!st.present);
 }
 $('wizSkip').addEventListener('click', () => showFirstRun(false));
+$('cdnFab').addEventListener('click', () => showFirstRun(true));
 $('wizLang').addEventListener('change', () => setLang($('wizLang').value === 's' ? 'cn' : 'tw'));
 $('wizMirror').addEventListener('change', () => {
   const custom = $('wizMirror').value === '__custom';
@@ -275,6 +284,7 @@ listen('cdn-progress', (e) => {
 });
 listen('cdn-done', async () => {
   cdnDownloading = false;
+  cdnPresent = true; // 資源已就緒 → 之後不再顯示懸浮球
   $('wizDownload').disabled = false;
   $('wizImport').disabled = false;
   $('wizProgBar').style.width = '100%';

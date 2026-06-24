@@ -174,3 +174,12 @@ button.x { background: transparent; color: var(--danger); border: 1px solid var(
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 .toast.ok { border-color: var(--primary); }
 .toast.err { border-color: var(--danger); }
+
+/* ===== CDN 懸浮球:略過精靈後、資源未下載完成時的重新入口 ===== */
+.cdn-fab { position: fixed; right: 26px; bottom: 22px; z-index: 50; cursor: pointer; animation: fab-in .35s ease; }
+.cdn-fab-ball { position: relative; width: 60px; height: 60px; border-radius: 50%; color: #fff; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #4cc78d, var(--primary-dim)); box-shadow: 0 8px 22px rgba(58,166,117,.55); animation: fab-bob 2.6s ease-in-out infinite; transition: transform .15s ease; }
+.cdn-fab-ball::after { content: ''; position: absolute; inset: 0; border-radius: 50%; animation: fab-pulse 1.9s ease-out infinite; }
+.cdn-fab:hover .cdn-fab-ball { transform: scale(1.09); }
+@keyframes fab-pulse { 0% { box-shadow: 0 0 0 0 rgba(58,166,117,.5); } 70% { box-shadow: 0 0 0 16px rgba(58,166,117,0); } 100% { box-shadow: 0 0 0 0 rgba(58,166,117,0); } }
+@keyframes fab-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes fab-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }

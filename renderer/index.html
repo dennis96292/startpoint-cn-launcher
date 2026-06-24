@@ -90,8 +90,7 @@
       <label>資源版本 <input id="resVersion" type="text" placeholder="1.4.54" /></label>
       <button id="save" class="primary">儲存</button>
       <span id="saveMsg" class="savemsg"></span>
-      <p class="hint" style="margin-top:22px">遊戲資源與存檔存放於使用者資料夾,更新 launcher 不會清除。解除安裝不會自動刪除已下載的 ~10GB 資源,可在此手動清除。</p>
-      <button id="cdnClear" class="mini">清除已下載資源(釋放空間)</button>
+      <button id="cdnClear" class="mini" style="margin-top:22px">清除已下載資源(釋放空間)</button>
     </section>
 
     <!-- 打包 APK -->
@@ -234,6 +233,15 @@
         <button id="portModalCancel" class="mini">取消</button>
       </div>
     </div>
+  </div>
+
+  <!-- 略過精靈後的懸浮入口:資源未下載完成時顯示,點擊重新叫回下載/匯入精靈,下載完自動消失 -->
+  <div id="cdnFab" class="cdn-fab" style="display:none" title="尚未下載遊戲資源,點此下載或匯入">
+    <span class="cdn-fab-ball">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 3v13"/><path d="M6 11l6 6 6-6"/><path d="M5 21h14"/>
+      </svg>
+    </span>
   </div>
 
   <div id="toast" class="toast"></div>
