@@ -2,6 +2,11 @@
 
 [startpoint-cn](https://github.com/dontbealarmed/startpoint-cn)的桌面啟動器:一鍵啟停本地伺服器、首次下載/匯入遊戲資源、打包重定向 APK、原生管理面板。
 
+## AI 使用聲明 / AI Disclosure
+
+本專案在開發與優化過程中,使用AI(Claude)協助進行程式碼生成、重構與除錯。
+This project is developed and optimized with the assistance of AI(Claude) for code generation, refactoring, and debugging.
+
 ## 事前準備
 
 先備妥這三樣,以及一個 Android 模擬器(如 MuMu):
