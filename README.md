@@ -5,6 +5,7 @@
 ## AI 使用聲明 / AI Disclosure
 
 本專案在開發與優化過程中,使用AI(Claude)協助進行程式碼生成、重構與除錯。
+
 This project is developed and optimized with the assistance of AI(Claude) for code generation, refactoring, and debugging.
 
 ## 事前準備
