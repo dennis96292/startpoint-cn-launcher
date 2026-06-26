@@ -1,6 +1,6 @@
 [package]
 name = "starpoint-cn-launcher"
-version = "0.1.0"
+version = "0.1.1"
 description = "StartPoint CN Launcher"
 authors = ["you"]
 license = "GPL-3.0-or-later"
