@@ -97,7 +97,12 @@ function saveTimeOffset(offset) {
 exports.saveTimeOffset = saveTimeOffset;
 /**
  * Restore time offset on server startup.
- * Uses saved offset, or defaults to 2024-08-14 12:00 UTC if not set.
+ * Uses saved offset, or defaults to 2024-07-23 12:00 UTC if not set.
+ * NOTE: must stay BEFORE 2024-07-25 — that is 谢胧/waterdragon_kunfu (121033)'s debut pickup banner
+ * (gacha 1637 "新角色特选扭蛋", 2024-07-25~08-08). The CDN art predates 谢胧, so any server date
+ * inside/after that banner makes the home screen preload 谢胧's pickup art → C8100 crash.
+ * The clock drifts with real time, so it will re-enter 谢胧's window after ~2 days; reset the date
+ * in the admin panel if the crash recurs (or pin the time).
  */
 function restoreTimeOffset() {
     const state = readState();
@@ -105,7 +110,7 @@ function restoreTimeOffset() {
         (0, utils_1.setServerTimeOffset)(state.timeOffset);
     }
     else {
-        const defaultDate = new Date("2024-08-14T12:00:00Z");
+        const defaultDate = new Date("2024-07-23T12:00:00Z");
         const offset = defaultDate.getTime() - Date.now();
         state.timeOffset = offset;
         state.lastSetTime = defaultDate.toISOString();

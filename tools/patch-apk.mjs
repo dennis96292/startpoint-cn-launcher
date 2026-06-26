@@ -42,6 +42,7 @@ const WORK = args.work || path.join(os.tmpdir(), 'wf-apk-patch');
 const SWF_REL = 'assets/worldflipper_android_release.swf';
 const CLASS_CORE = 'pinball.config.core.DevConfig';
 const CLASS_GF = 'pinball.config.gbits.DevConfig_gf_android';
+const CLASS_FR = 'pinball.asset.file.FileReader';
 
 const JAVA = path.join(JDK_BIN, 'java.exe');
 const JAR = path.join(JDK_BIN, 'jar.exe');
@@ -100,10 +101,11 @@ try {
 
   // 2) FFDec export the 2 config classes to AS3
   progress('反編譯 DevConfig 類別');
-  runJavaJar(FFDEC, ['-selectclass', `${CLASS_CORE},${CLASS_GF}`, '-export', 'script', scriptsDir, appSwf]);
+  runJavaJar(FFDEC, ['-selectclass', `${CLASS_CORE},${CLASS_GF},${CLASS_FR}`, '-export', 'script', scriptsDir, appSwf]);
   const asCore = path.join(scriptsDir, 'scripts', 'pinball', 'config', 'core', 'DevConfig.as');
   const asGf = path.join(scriptsDir, 'scripts', 'pinball', 'config', 'gbits', 'DevConfig_gf_android.as');
-  need(asCore, 'DevConfig.as'); need(asGf, 'DevConfig_gf_android.as');
+  const asFr = path.join(scriptsDir, 'scripts', 'pinball', 'asset', 'file', 'FileReader.as');
+  need(asCore, 'DevConfig.as'); need(asGf, 'DevConfig_gf_android.as'); need(asFr, 'FileReader.as');
 
   // 3) string-patch the AS3 (robust: keyed on unique substrings, not line numbers)
   progress('套用重定向 patch');
@@ -119,9 +121,23 @@ try {
   const pGf = path.join(WORK, 'DevConfig_gf_android.as');
   writeFileSync(pCore, coreNew); writeFileSync(pGf, gfNew);
 
+  // FileReader: tolerate assets the 1.8.1 client references but the 1.4.54 CDN lacks (e.g. 谢胧
+  // /waterdragon_kunfu square_132). failedReadAssetFileHandler already falls back missing
+  // `dynamic/*.png` to the built-in "dynamic/error/not_found" placeholder; broaden that to ANY
+  // missing .png so a missing character icon renders the placeholder instead of triggering
+  // asset-recovery -> C8100 crash. Only .png (images) — data/master files are untouched.
+  // (Same SWF-guard technique as upstream's character_level_up_effect fix, generalized.)
+  let fr = readFileSync(asFr, 'utf-8');
+  const frNew = fr.replace(
+    'int(param1.lastIndexOf("dynamic/",0)) == 0 && param1 != "dynamic/error/not_found" && param2 == ".png"',
+    'param1 != "dynamic/error/not_found" && param2 == ".png"');
+  if (frNew === fr) fail('FileReader.as 找不到 failedReadAssetFileHandler 的 dynamic png 條件');
+  const pFr = path.join(WORK, 'FileReader.as');
+  writeFileSync(pFr, frNew);
+
   // 4) FFDec -replace recompiles the patched AS3 back into the SWF (slowest step)
   progress('重編 SWF(較久,請稍候)');
-  runJavaJar(FFDEC, ['-replace', appSwf, patchedSwf, CLASS_CORE, pCore, CLASS_GF, pGf]);
+  runJavaJar(FFDEC, ['-replace', appSwf, patchedSwf, CLASS_CORE, pCore, CLASS_GF, pGf, CLASS_FR, pFr]);
   need(patchedSwf, '重編後的 SWF');
 
   // 5) repack: copy the ASCII APK, drop patched SWF in, jar uf0 (store) to replace the entry
