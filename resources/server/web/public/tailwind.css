@@ -647,8 +647,8 @@ video {
   height: 100%;
 }
 
-.max-h-64 {
-  max-height: 16rem;
+.max-h-96 {
+  max-height: 24rem;
 }
 
 .min-h-screen {
@@ -667,12 +667,8 @@ video {
   width: 8rem;
 }
 
-.w-24 {
-  width: 6rem;
-}
-
-.w-16 {
-  width: 4rem;
+.w-40 {
+  width: 10rem;
 }
 
 .w-20 {
@@ -838,16 +834,6 @@ video {
 .px-\[24px\] {
   padding-left: 24px;
   padding-right: 24px;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .py-1 {
@@ -1288,20 +1274,12 @@ video {
   background-color: var(--md-sys-color-primary);
 }
 
-.hover\:bg-error:hover {
-  background-color: var(--md-sys-color-error);
-}
-
 .hover\:bg-surface-container-low:hover {
   background-color: var(--md-sys-color-surface-container-low);
 }
 
 .hover\:text-on-primary:hover {
   color: var(--md-sys-color-on-primary);
-}
-
-.hover\:text-on-error:hover {
-  color: var(--md-sys-color-on-error);
 }
 
 .hover\:text-primary:hover {

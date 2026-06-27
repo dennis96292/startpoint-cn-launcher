@@ -8,15 +8,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const utils_1 = require("../../utils");
 const wdfpData_1 = require("../../data/wdfpData");
 const utils_2 = require("../../data/utils");
 const activeAccount_1 = require("../../data/activeAccount");
-const default_player_template_json_1 = __importDefault(require("../../../assets/default_player_template.json"));
 const routes = (fastify) => __awaiter(void 0, void 0, void 0, function* () {
     fastify.get("/currentTime", (_request, reply) => __awaiter(void 0, void 0, void 0, function* () {
         const date = (0, utils_1.getServerDate)();
@@ -222,49 +218,6 @@ const routes = (fastify) => __awaiter(void 0, void 0, void 0, function* () {
             return { id: acc.id, saves };
         });
         return reply.status(200).send(out);
-    }));
-    // Create a new account + player from the admin panel (no game login needed).
-    // mode=template → seed from the baked-in DC template; mode=blank → empty default player.
-    fastify.post("/createSave", (request, reply) => __awaiter(void 0, void 0, void 0, function* () {
-        const mode = (request.query || {}).mode || "template";
-        const account = yield (0, wdfpData_1.insertAccount)({ appId: "wf_cn", idpAlias: "", idpCode: "leiting", idpId: "", status: "normal" });
-        const player = (0, wdfpData_1.insertDefaultPlayerSync)(account.id);
-        if (mode === "template") {
-            try {
-                const data = JSON.parse(JSON.stringify(default_player_template_json_1.default));
-                (0, utils_2.reviveMergedPlayerDates)(data);
-                data.player.id = player.id;
-                (0, wdfpData_1.replacePlayerDataSync)(data);
-            }
-            catch (_) { /* keep blank player on failure */ }
-        }
-        (0, activeAccount_1.saveAccountDefaultPlayer)(account.id, player.id);
-        (0, activeAccount_1.setActivePlayerId)(player.id);
-        return reply.status(200).send({ ok: true, playerId: player.id, accountId: account.id });
-    }));
-    // Import a save (JSON body: either {schema:'starpoint-cn-save',data} or raw merged data)
-    // into a brand-new account + player.
-    fastify.post("/importSave", (request, reply) => __awaiter(void 0, void 0, void 0, function* () {
-        var _b;
-        try {
-            const body = request.body;
-            const parsed = (typeof body === 'string') ? JSON.parse(body) : body;
-            const data = (parsed && parsed.schema === 'starpoint-cn-save' && parsed.data) ? parsed.data : parsed;
-            if (!data || typeof data !== 'object' || !data.player) {
-                return reply.status(400).send({ error: "存档缺少 player 字段" });
-            }
-            const account = yield (0, wdfpData_1.insertAccount)({ appId: "wf_cn", idpAlias: "", idpCode: "leiting", idpId: "", status: "normal" });
-            const player = (0, wdfpData_1.insertDefaultPlayerSync)(account.id);
-            (0, utils_2.reviveMergedPlayerDates)(data);
-            data.player.id = player.id;
-            (0, wdfpData_1.replacePlayerDataSync)(data);
-            (0, activeAccount_1.saveAccountDefaultPlayer)(account.id, player.id);
-            (0, activeAccount_1.setActivePlayerId)(player.id);
-            return reply.status(200).send({ ok: true, playerId: player.id });
-        }
-        catch (e) {
-            return reply.status(500).send({ error: (_b = e === null || e === void 0 ? void 0 : e.message) !== null && _b !== void 0 ? _b : String(e) });
-        }
     }));
 });
 exports.default = routes;

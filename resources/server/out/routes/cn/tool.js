@@ -8,33 +8,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const utils_1 = require("../../utils");
 const wdfpData_1 = require("../../data/wdfpData");
 const types_1 = require("../../data/types");
 const activeAccount_1 = require("../../data/activeAccount");
-const utils_2 = require("../../data/utils");
-const default_player_template_json_1 = __importDefault(require("../../../assets/default_player_template.json"));
-// New players are seeded from a baked-in post-tutorial save (avoids the C8601 tutorial crash).
-// Mirrors the web panel's save-import: revive dates, reassign id, replace all player data.
-function createSeededPlayer(accountId) {
-    var _a;
-    const player = (0, wdfpData_1.insertDefaultPlayerSync)(accountId);
-    try {
-        const data = JSON.parse(JSON.stringify(default_player_template_json_1.default));
-        (0, utils_2.reviveMergedPlayerDates)(data);
-        data.player.id = player.id;
-        (0, wdfpData_1.replacePlayerDataSync)(data);
-        return (_a = (0, wdfpData_1.getPlayerSync)(player.id)) !== null && _a !== void 0 ? _a : player;
-    }
-    catch (e) {
-        console.error("[seed] default template apply failed, falling back to blank player:", e);
-        return player;
-    }
-}
 function generateLoginToken() {
     const chars = "abcdefghijklmnopqrstuvwxyz0123456789";
     let token = "";
@@ -95,22 +73,23 @@ const routes = (fastify) => __awaiter(void 0, void 0, void 0, function* () {
                     appId: "wf_cn", idpAlias: "", idpCode: "leiting", idpId: "", status: "normal"
                 });
                 accountId = account.id;
-                const player = createSeededPlayer(accountId);
+                const player = (0, wdfpData_1.insertDefaultPlayerSync)(accountId);
                 (0, activeAccount_1.saveAccountDefaultPlayer)(accountId, player.id);
                 (0, wdfpData_1.insertDeviceBindingSync)(deviceId, accountId);
             }
         }
         else {
-            // New device → create account. Seed from the post-tutorial template (same as the
-            // stale-binding branch above) so a first-time player skips the C8601 tutorial crash.
+            // New device → create account with a BLANK player (upstream behaviour). The client then
+            // plays the tutorial from scratch (取名 → 十連 → 亞里沙 → 主畫面). Confirmed to run cleanly
+            // on the full CDN + FileReader .png placeholder guard, so the old C8601-dodging seed is gone.
             const account = yield (0, wdfpData_1.insertAccount)({
                 appId: "wf_cn", idpAlias: "", idpCode: "leiting", idpId: "", status: "normal"
             });
             accountId = account.id;
-            const player = createSeededPlayer(accountId);
+            const player = (0, wdfpData_1.insertDefaultPlayerSync)(accountId);
             (0, activeAccount_1.saveAccountDefaultPlayer)(accountId, player.id);
             (0, wdfpData_1.insertDeviceBindingSync)(deviceId, accountId);
-            console.log(`[signup] NEW account#${accountId} + seeded player#${player.id} (device_id=${deviceId})`);
+            console.log(`[signup] NEW account#${accountId} + blank player#${player.id} (device_id=${deviceId})`);
         }
         yield (0, wdfpData_1.insertSessionWithToken)({
             token: String(accountId),

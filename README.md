@@ -12,7 +12,7 @@ This project is developed and optimized with the assistance of AI(Claude) for co
 
 先備妥這三樣,以及一個 Android 模擬器(如 MuMu):
 
-- [安裝檔](https://github.com/dennis96292/startpoint-cn-launcher/releases) `StartPointCNLauncher_0.1.0_x64-setup.exe`
+- [安裝檔](https://github.com/dennis96292/startpoint-cn-launcher/releases) `StartPointCNLauncher_0.1.1_x64-setup.exe`
 - [遊戲資源 CDN 分卷](https://github.com/dennis96292/.cdn/releases/tag/cdn-1.4.54) `cn-cdn.tar.part.00`~`.05`(約 10GB)
 - [World Flipper 國服原始 APK](https://github.com/dennis96292/startpoint-cn-launcher/releases)
 
@@ -37,6 +37,6 @@ npm install
 npx tauri build
 ```
 
-產出 `src-tauri/target/release/bundle/nsis/StartPointCNLauncher_0.1.0_x64-setup.exe`。若要同步更新 server 原始碼後再打包,改用 `pwsh scripts/build-release.ps1`(見該腳本說明)。
+產出 `src-tauri/target/release/bundle/nsis/StartPointCNLauncher_0.1.1_x64-setup.exe`。若要同步更新 server 原始碼後再打包,改用 `pwsh scripts/build-release.ps1`(見該腳本說明)。
 
 授權:GPL-3.0-or-later(沿用 starpoint / startpoint-cn)。
