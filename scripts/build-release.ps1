@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
   StartPoint CN Launcher — one-shot update + release build.
 
@@ -84,7 +84,7 @@ $checks = @{
   "DC template"             = "$VendorDst\assets\default_player_template.json"
   "jdk\bin\jar.exe"         = "$Launcher\resources\jdk\bin\jar.exe"
   "ffdec.jar"               = "$Launcher\resources\tools\ffdec\ffdec.jar"
-  "apksigner.jar"           = "$Launcher\resources\build-tools\apksigner.jar"
+  "apksigner.jar"           = "$Launcher\resources\build-tools\lib\apksigner.jar"
   "patch-apk.mjs"           = "$Launcher\tools\patch-apk.mjs"
 }
 $missing = $false
@@ -100,8 +100,9 @@ Push-Location $Launcher
 npx tauri build
 Pop-Location
 
-$out = Join-Path $Launcher "src-tauri\target\release\bundle\nsis\StartPointCNLauncher_0.1.0_x64-setup.exe"
-if (Test-Path $out) {
+$out = Get-ChildItem (Join-Path $Launcher "src-tauri\target\release\bundle\nsis") -Filter "StartPointCNLauncher_*_x64-setup.exe" -ErrorAction SilentlyContinue |
+  Sort-Object LastWriteTime | Select-Object -Last 1 -ExpandProperty FullName
+if ($out -and (Test-Path $out)) {
   $mb = [math]::Round((Get-Item $out).Length / 1MB, 1)
   Write-Host "`nDONE -> $out ($mb MB)" -ForegroundColor Green
 } else {

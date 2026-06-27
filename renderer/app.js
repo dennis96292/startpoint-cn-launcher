@@ -401,25 +401,7 @@ $('plReload').addEventListener('click', () => loadPlayers(plPage));
 $('plPrev').addEventListener('click', () => loadPlayers(plPage - 1));
 $('plNext').addEventListener('click', () => loadPlayers(plPage + 1));
 
-// ---- 新建 / 匯入存檔 (#7) ----
-$('newSaveTemplate').addEventListener('click', () => createSave('template'));
-$('newSaveBlank').addEventListener('click', () => createSave('blank'));
-async function createSave(mode) {
-  const r = await api('POST', `/api/server/createSave?mode=${mode}`, {});
-  if (r.status === 200 && r.data && r.data.ok) { toast(mode === 'template' ? '已建立範本存檔' : '已建立空白存檔'); loadPlayers(0); }
-  else toast((r.data && r.data.error) || '建立失敗', 'err');
-}
-$('importSave').addEventListener('click', async () => {
-  const f = await invoke('pick_file_any');
-  if (!f) return;
-  let text;
-  try { text = await invoke('read_text_file', { path: f }); }
-  catch (e) { return toast('讀取失敗:' + e, 'err'); }
-  const res = await invoke('api_request', { method: 'POST', path: '/api/server/importSave', body: text, contentType: 'application/json' });
-  let d = null; try { d = JSON.parse(res.body); } catch {}
-  if (res.status === 200 && d && d.ok) { toast('已匯入存檔'); loadPlayers(0); }
-  else toast((d && d.error) || '匯入失敗', 'err');
-});
+// 新增帳號/存檔走「帳號」分頁(上游 newSave 等端點);玩家分頁只負責檢視/編輯既有存檔。
 
 async function openPlayer(pid) {
   currentPid = pid;
